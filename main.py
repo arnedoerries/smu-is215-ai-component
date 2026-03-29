@@ -8,7 +8,6 @@ app = FastAPI()
 class UserCharacterDescription(BaseModel):
     description: str
 
-@app.post("/items/")
+@app.post("/getArchetypePrediction/")
 async def create_item(item: UserCharacterDescription):
-    return predict_character_archetype(UserCharacterDescription)
-
+    return {"embedding": predict_character_archetype(item.description).tolist()}

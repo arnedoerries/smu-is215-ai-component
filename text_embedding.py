@@ -1,3 +1,4 @@
+import pandas as pd
 from sentence_transformers import SentenceTransformer
 import numpy as np
 
@@ -5,7 +6,7 @@ import numpy as np
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 
-def embed_labeled_training_data(input_character_description_df):
+def embed_labeled_training_data(input_character_description_df: pd.DataFrame):
     # Embedding each character description from the input
     X = embedded_character_descriptions = model.encode(
         input_character_description_df['character_description'].tolist(),
@@ -22,10 +23,12 @@ def embed_labeled_training_data(input_character_description_df):
 
 
 # Embedding the raw user input description
-def embed_character_description(input_character_description):
-    embedding = model.encode(
+def embed_character_description(input_character_description: str):
+    embedded_character_description = model.encode(
         [input_character_description],
         convert_to_numpy=True,
         normalize_embeddings=True
     )
-    return embedding
+    print("The character description has been embedded:")
+    print(embedded_character_description)
+    return embedded_character_description
