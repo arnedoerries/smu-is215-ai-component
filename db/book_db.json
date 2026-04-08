@@ -1,0 +1,44 @@
+{
+  "books": [
+    {
+      "book_id": "b001",
+      "title": "The Cartographer of Silent Paths",
+      "published_date": "2023-08-14",
+      "summary": "A reserved mapmaker embarks on a solo expedition through uncharted territory, relying on careful observation and meticulous planning to survive.",
+      "main_characters": [
+        {
+        "name": "Elara Voss",
+        "archetype_id": 0,
+        "archetype_label": "The Quiet Thinker",
+        "confidence": 0.9231
+      },
+        {
+        "name": "Alberto Coppernicus",
+        "archetype_id": 3,
+        "archetype_label": "The Bold Leader",
+        "confidence": 0.9923
+      }
+      ]
+    },
+    {
+      "book_id": "b001",
+      "title": "The Cartographer of Silent Paths",
+      "published_date": "2023-08-14",
+      "summary": "A reserved mapmaker embarks on a solo expedition through uncharted territory, relying on careful observation and meticulous planning to survive.",
+      "main_characters": [
+        {
+        "name": "Elara Voss",
+        "archetype_id": 0,
+        "archetype_label": "The Quiet Thinker",
+        "confidence": 0.9231
+      },
+        {
+        "name": "Alberto Coppernicus",
+        "archetype_id": 3,
+        "archetype_label": "The Bold Leader",
+        "confidence": 0.9923
+      }
+      ]
+    }
+  ]
+}

@@ -56,9 +56,7 @@ def model_construction():
     print(f"Test loss    : {test_loss:.4f}")
 
     # Saving the model as a .keras file
-    model_keras.save("training_data/model.keras")
+    model_keras.save("model.keras")
     print("\nModel successfully saved!")
 
     return model_keras
-
-model_construction()

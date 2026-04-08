@@ -1,0 +1,54 @@
+{
+ "users": [
+  {
+   "user_id": "9082109211",
+   "user_first_name": "Harry",
+   "user_last_name": "Potter",
+   "last_updated": "2026-03-06T15:13:51.945532",
+   "character_description": "An character who managed to be the main character without being overly extroverted",
+   "matched_archetype": 0,
+   "matched_archetype_label": "The Quiet Thinker",
+   "matching_confidence": 0.82
+  },
+  {
+   "user_id": "8902019232",
+   "user_first_name": "John",
+   "user_last_name": "Baker",
+   "last_updated": "2026-04-07T11:07:11.088295",
+   "character_description": "I like strong characters",
+   "matched_archetype": 1,
+   "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 0.92
+  },
+  {
+   "user_id": "8902019232",
+   "user_first_name": "Harry Potter",
+   "user_last_name": "Baker",
+   "last_updated": "2026-04-07T11:19:55.525062",
+   "character_description": "I like strong characters",
+   "matched_archetype_index": 1,
+   "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 0.9
+  },
+  {
+   "user_id": "1182109211",
+   "user_first_name": "Ron",
+   "user_last_name": "Wesley",
+   "last_updated": "2026-04-08T15:08:13.909815",
+   "character_description": "I like a main character with courage that is fearless and overcomes all enemies through facing them directly.",
+   "matched_archetype_index": 1,
+   "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 0.99
+  },
+  {
+   "user_id": "1182109299",
+   "user_first_name": "Albert",
+   "user_last_name": "Einstein",
+   "last_updated": "2026-04-08T15:13:51.945532",
+   "character_description": "I like characters that think things through quietly, weighing all options, measuring every word before responding.",
+   "matched_archetype_index": 0,
+   "matched_archetype_label": "The Quiet Thinker",
+   "matching_confidence": 0.99
+  }
+ ]
+}
