@@ -49,6 +49,98 @@
    "matched_archetype_index": 0,
    "matched_archetype_label": "The Quiet Thinker",
    "matching_confidence": 0.99
+  },
+  {
+   "user_id": "6666667777",
+   "user_first_name": "Jahama",
+   "user_last_name": "Crentos",
+   "last_updated": "2026-04-08T19:52:30.305824",
+   "character_description": "I like a character with courage who is bold and protects their friends.",
+   "matched_archetype_index": 1,
+   "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 0.91
+  },
+  {
+   "user_id": "6666667777",
+   "user_first_name": "Jahama",
+   "user_last_name": "Crentos",
+   "last_updated": "2026-04-08T19:52:37.322993",
+   "character_description": "I like a character with courage who is bold and protects their friends.",
+   "matched_archetype_index": 1,
+   "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 0.91
+  },
+  {
+   "user_id": "6666667777",
+   "user_first_name": "Jahama",
+   "user_last_name": "Crentos",
+   "last_updated": "2026-04-08T19:52:45.706630",
+   "character_description": "I like a character with courage who is bold and protects their friends.",
+   "matched_archetype_index": 1,
+   "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 0.91
+  },
+  {
+   "user_id": "1234567890",
+   "user_first_name": "Jeniiiiiiiiiiiii",
+   "user_last_name": "Crentos",
+   "last_updated": "2026-04-08T20:15:19.159042",
+   "character_description": "A strong and bold leader.",
+   "matched_archetype_index": 1,
+   "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 1.0
+  },
+  {
+   "user_id": "1234567890",
+   "user_first_name": "Jeniiiiiiiiiiiii",
+   "user_last_name": "Crentos",
+   "last_updated": "2026-04-08T19:57:00.700919",
+   "character_description": "A strong and bold leader.",
+   "matched_archetype_index": 1,
+   "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 1.0
+  },
+  {
+   "user_id": "1234567890",
+   "user_first_name": "Jeniiiiiiiiiiiii",
+   "user_last_name": "Crentos",
+   "last_updated": "2026-04-08T20:05:25.241163",
+   "character_description": "A strong and bold leader.",
+   "matched_archetype_index": 1,
+   "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 1.0
+  },
+  {
+   "user_id": "0000000000",
+   "user_first_name": "Finn",
+   "user_last_name": "Johnson",
+   "last_updated": "2026-04-08T20:16:54.265994",
+   "character_description": "Strong leader",
+   "matched_archetype_index": 0,
+   "matched_archetype_label": "Silent Listener",
+   "matching_confidence": 0.98
+  },
+  {
+   "user_id": "7777777777",
+   "user_first_name": "Maxxxxxxxx",
+   "user_last_name": "Milllllian",
+   "last_updated": "2026-04-08T20:24:20.862132",
+   "character_description": "A strong and bold leader.",
+   "matched_archetype_index": 1,
+   "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 1.0,
+   "first_name": "Maxxxxxxxx",
+   "last_name": "Milllllian"
+  },
+  {
+   "user_id": "1212121212",
+   "user_first_name": "Claudius",
+   "user_last_name": "Pasta",
+   "last_updated": "2026-04-08T21:21:51.971222",
+   "character_description": "He explored new paths simply for the thrill of it, She challenged authority whenever it suited her mood, He constantly changed plans based on whims and impulses, He made unpredictable decisions that left others scrambling",
+   "matched_archetype_index": 3,
+   "matched_archetype_label": "The Free Spirit",
+   "matching_confidence": 1.0
   }
  ]
 }

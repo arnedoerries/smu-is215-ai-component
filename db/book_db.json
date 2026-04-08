@@ -1,44 +1,87 @@
 {
-  "books": [
+ "books": [
+  {
+   "book_id": "b001",
+   "title": "The Cartographer of Silent Paths",
+   "published_date": "2023-08-14",
+   "summary": "A reserved mapmaker embarks on a solo expedition through uncharted territory, relying on careful observation and meticulous planning to survive.",
+   "main_characters": [
     {
-      "book_id": "b001",
-      "title": "The Cartographer of Silent Paths",
-      "published_date": "2023-08-14",
-      "summary": "A reserved mapmaker embarks on a solo expedition through uncharted territory, relying on careful observation and meticulous planning to survive.",
-      "main_characters": [
-        {
-        "name": "Elara Voss",
-        "archetype_id": 0,
-        "archetype_label": "The Quiet Thinker",
-        "confidence": 0.9231
-      },
-        {
-        "name": "Alberto Coppernicus",
-        "archetype_id": 3,
-        "archetype_label": "The Bold Leader",
-        "confidence": 0.9923
-      }
-      ]
+     "name": "Elara Voss",
+     "gender": "female",
+     "archetype_id": 0,
+     "archetype_label": "The Quiet Thinker",
+     "confidence": 0.9231
     },
     {
-      "book_id": "b001",
-      "title": "The Cartographer of Silent Paths",
-      "published_date": "2023-08-14",
-      "summary": "A reserved mapmaker embarks on a solo expedition through uncharted territory, relying on careful observation and meticulous planning to survive.",
-      "main_characters": [
-        {
-        "name": "Elara Voss",
-        "archetype_id": 0,
-        "archetype_label": "The Quiet Thinker",
-        "confidence": 0.9231
-      },
-        {
-        "name": "Alberto Coppernicus",
-        "archetype_id": 3,
-        "archetype_label": "The Bold Leader",
-        "confidence": 0.9923
-      }
-      ]
+     "name": "Alberto Coppernicus",
+     "gender": "male",
+     "archetype_id": 3,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.9923
     }
-  ]
+   ]
+  },
+  {
+   "book_id": "b001",
+   "title": "The Cartographer of Silent Paths",
+   "published_date": "2023-08-14",
+   "summary": "A reserved mapmaker embarks on a solo expedition through uncharted territory, relying on careful observation and meticulous planning to survive.",
+   "main_characters": [
+    {
+     "name": "Elara Voss",
+     "gender": "female",
+     "archetype_id": 0,
+     "archetype_label": "The Quiet Thinker",
+     "confidence": 0.9231
+    },
+    {
+     "name": "Alberto Coppernicus",
+     "archetype_id": 3,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.9923
+    }
+   ]
+  },
+  {
+   "book_id": "8908675425",
+   "title": "The fish",
+   "published_date": "Yesterday",
+   "summary": "Great book!",
+   "main_characters": [
+    {
+     "name": "Malcom",
+     "archetype_id": 1,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.99
+    },
+    {
+     "name": "Marie",
+     "archetype_id": 1,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.99
+    },
+    {
+     "name": "Annamarie",
+     "archetype_id": 1,
+     "archetype_label": "stje",
+     "confidence": 0.9
+    }
+   ]
+  },
+  {
+   "book_id": "8908675429",
+   "title": "The great wall of China",
+   "published_date": "hte",
+   "summary": "thej",
+   "main_characters": [
+    {
+     "name": "Annamarie",
+     "archetype_id": 1,
+     "archetype_label": "stje",
+     "confidence": 0.9
+    }
+   ]
+  }
+ ]
 }

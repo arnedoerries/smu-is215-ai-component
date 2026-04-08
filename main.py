@@ -3,43 +3,58 @@ from fastapi import FastAPI
 from pydantic import BaseModel, Field
 from typing import Literal
 
-from archetype_prediction import predict_character_archetype
+from orchestrator import predict_for_user_and_add_to_user_db, predict_for_new_character_and_add_to_book_db
 from user_db_manager import retrieve_user_data_product, retrieve_entire_user_database
+from book_db_manager import retrieve_book_data_product, retrieve_entire_book_database
 
 
 app = FastAPI()
 
-class UserCharacterDescription(BaseModel):
+class UserCharacterDescriptionInput(BaseModel):
     user_id: str = Field(..., min_length=10, max_length=10, pattern="^[0-9]{10}$")
     user_first_name: str
     user_last_name: str
     character_description: str
 
-class NewBookCharacter(BaseModel):
+class NewBookCharacterInput(BaseModel):
     book_id: str = Field(..., min_length=10, max_length=10, pattern="^[0-9]{10}$")
     book_title: str
     book_published_date: datetime.date
+    book_genre: Literal["Mystery & Thriller", "Science Fiction & Fantasy", "Romance", "Nonfiction", "Biography & Memoir"]
     book_short_summary: str
     character_name: str
-    gender: Literal["male", "female", "other"]
+    character_gender: Literal["male", "female", "other"]
     character_description: str
 
-class UserDataProduct(BaseModel):
+class UserDataProductInput(BaseModel):
     user_id: str = Field(..., min_length=10, max_length=10, pattern="^[0-9]{10}$")
 
-@app.post("/getArchetypePrediction/")
-async def create_item(item: UserCharacterDescription):
-    return predict_character_archetype(item.user_id, item.user_first_name, item.user_last_name, item.character_description)
+class BookDataProductInput(BaseModel):
+    book_id: str = Field(..., min_length=10, max_length=10, pattern="^[0-9]{10}$")
 
+# This first endpoint is our main endpoint for the user interaction
+@app.post("/getUserBookRecommendations/")
+async def create_item(item: UserCharacterDescriptionInput):
+    return predict_for_user_and_add_to_user_db(item.user_id, item.user_first_name, item.user_last_name, item.character_description)
+
+# This second endpoint is for adding new characters for newly released books so that users can get it recommended
 @app.post("/addNewBookCharacter/")
-async def create_item(item: NewBookCharacter):
-    return {"Success"}
+async def create_item(item: NewBookCharacterInput):
+    return predict_for_new_character_and_add_to_book_db(item.book_id, item.book_title, item.book_published_date, item.book_genre, item.book_short_summary, item.character_name, item.character_gender, item.character_description)
 
+# The following four endpoints are for easily retrieving all data stored in this microservice for analytics and other purposes.
 @app.get("/retrieveSingleUserDataProduct/")
-async def read_item(item: UserDataProduct):
+async def read_item(item: UserDataProductInput):
     return retrieve_user_data_product(item.user_id)
 
 @app.get("/retrieveAllUserDataProducts/")
 async def read_item():
     return retrieve_entire_user_database()
 
+@app.get("/retrieveSingleBookDataProduct/")
+async def read_item(item: BookDataProductInput):
+    return retrieve_book_data_product(item.book_id)
+
+@app.get("/retrieveAllBookDataProducts/")
+async def read_item():
+    return retrieve_entire_book_database()

@@ -6,24 +6,39 @@ def add_character_archetype_prediction_to_user_db(user_id: str, user_first_name:
         with open('db/user_db.json', 'r') as file:
             data = json.load(file)
 
-        data["users"].append({"user_id": user_id,
-                              "user_first_name": user_first_name,
-                              "user_last_name": user_last_name,
-                              "last_updated": datetime.datetime.now().isoformat(),
-                              "character_description": character_description,
-                              "matched_archetype_index": predicted_archetype_index,
-                              "matched_archetype_label": predicted_archetype_label,
-                              "matching_confidence": matching_confidence})
+        user_already_in_db = False
+
+        for user in data["users"]:
+            if user["user_id"] == user_id:
+                user_already_in_db = True
+                user["user_first_name"] = user_first_name
+                user["user_last_name"] = user_last_name
+                user["last_updated"] = datetime.datetime.now().isoformat()
+                user["character_description"] = character_description
+                user["matched_archetype_index"] = predicted_archetype_index
+                user["matched_archetype_label"] = predicted_archetype_label
+                user["matching_confidence"] = matching_confidence
+                print("Notice: The user was already in the database but the records have been updated with the new character archetype matching.")
+                break
+
+        if not user_already_in_db:
+            data["users"].append({"user_id": user_id,
+                                  "user_first_name": user_first_name,
+                                  "user_last_name": user_last_name,
+                                  "last_updated": datetime.datetime.now().isoformat(),
+                                  "character_description": character_description,
+                                  "matched_archetype_index": predicted_archetype_index,
+                                  "matched_archetype_label": predicted_archetype_label,
+                                  "matching_confidence": matching_confidence})
+            print("Success: The new user and their archetype matching have been added to the database.")
 
         with open('db/user_db.json', 'w') as file:
             json.dump(data, file, indent=1)
 
-        print("Success: This user's archetype prediction has been saved to the user database.")
-
         return True
 
-    except:
-        print("Error: Something went wrong in saving the user archetype prediction to the user database.")
+    except FileNotFoundError:
+        print("Error: Database file not found")
         return False
 
 
