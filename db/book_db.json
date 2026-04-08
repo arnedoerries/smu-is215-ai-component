@@ -1,85 +1,455 @@
 {
  "books": [
   {
-   "book_id": "b001",
-   "title": "The Cartographer of Silent Paths",
-   "published_date": "2023-08-14",
-   "summary": "A reserved mapmaker embarks on a solo expedition through uncharted territory, relying on careful observation and meticulous planning to survive.",
+   "book_id": "2849305834",
+   "title": "The Silence of Kyoto",
+   "published_date": "2025-11-15",
+   "genre": "Mystery & Thriller",
+   "summary": "A detective returns to her ancestral home in Kyoto to solve a decades-old murder that mirrors her sister's mysterious disappearance.",
    "main_characters": [
     {
-     "name": "Elara Voss",
+     "name": "Akira Tanaka",
      "gender": "female",
      "archetype_id": 0,
      "archetype_label": "The Quiet Thinker",
-     "confidence": 0.9231
+     "confidence": 0.92
     },
     {
-     "name": "Alberto Coppernicus",
+     "name": "Kenji Yamamoto",
+     "gender": "male",
+     "archetype_id": 1,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.88
+    }
+   ]
+  },
+  {
+   "book_id": "0574939297",
+   "title": "Echoes from the Floating World",
+   "published_date": "2025-09-22",
+   "genre": "Science Fiction & Fantasy",
+   "summary": "In a world where memories can be traded like currency, a memory thief discovers a fragment that could rewrite history.",
+   "main_characters": [
+    {
+     "name": "Yuki Nakamura",
+     "gender": "female",
+     "archetype_id": 3,
+     "archetype_label": "The Free Spirit",
+     "confidence": 0.91
+    },
+    {
+     "name": "Haruto Sato",
+     "gender": "male",
+     "archetype_id": 0,
+     "archetype_label": "The Quiet Thinker",
+     "confidence": 0.87
+    }
+   ]
+  },
+  {
+   "book_id": "7163482951",
+   "title": "The Tea Master's Daughter",
+   "published_date": "2025-07-08",
+   "genre": "Romance",
+   "summary": "A young tea ceremony master falls in love with a wandering poet who arrives at her remote mountain village seeking refuge.",
+   "main_characters": [
+    {
+     "name": "Sakura Ishida",
+     "gender": "female",
+     "archetype_id": 2,
+     "archetype_label": "The Caring Heart",
+     "confidence": 0.94
+    },
+    {
+     "name": "Takeshi Kobayashi",
      "gender": "male",
      "archetype_id": 3,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.9923
+     "archetype_label": "The Free Spirit",
+     "confidence": 0.89
     }
    ]
   },
   {
-   "book_id": "b001",
-   "title": "The Cartographer of Silent Paths",
-   "published_date": "2023-08-14",
-   "summary": "A reserved mapmaker embarks on a solo expedition through uncharted territory, relying on careful observation and meticulous planning to survive.",
+   "book_id": "4928175603",
+   "title": "Whispers of the Samurai Code",
+   "published_date": "2025-05-14",
+   "genre": "Mystery & Thriller",
+   "summary": "A martial arts instructor uncovers a conspiracy when her prized student is accused of murder, leading her to question everything she knows.",
    "main_characters": [
     {
-     "name": "Elara Voss",
+     "name": "Hana Fujita",
+     "gender": "female",
+     "archetype_id": 1,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.93
+    },
+    {
+     "name": "Daichi Ito",
+     "gender": "male",
+     "archetype_id": 2,
+     "archetype_label": "The Caring Heart",
+     "confidence": 0.85
+    }
+   ]
+  },
+  {
+   "book_id": "6351890472",
+   "title": "City of Cherry Blossoms and Neon",
+   "published_date": "2025-03-20",
+   "genre": "Science Fiction & Fantasy",
+   "summary": "Tokyo in 2087: a hacker with synthetic memories must uncover who she really is before her creators erase her existence.",
+   "main_characters": [
+    {
+     "name": "Rei Nakamura",
      "gender": "female",
      "archetype_id": 0,
      "archetype_label": "The Quiet Thinker",
-     "confidence": 0.9231
+     "confidence": 0.90
     },
     {
-     "name": "Alberto Coppernicus",
+     "name": "Koji Nakajima",
+     "gender": "male",
+     "archetype_id": 1,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.86
+    }
+   ]
+  },
+  {
+   "book_id": "1847562089",
+   "title": "The Ink Painter's Secret",
+   "published_date": "2024-12-11",
+   "genre": "Biography & Memoir",
+   "summary": "The true story of Yoshida Akiko, a celebrated ink painter who lived a double life as a resistance fighter during wartime.",
+   "main_characters": [
+    {
+     "name": "Yoshida Akiko",
+     "gender": "female",
      "archetype_id": 3,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.9923
+     "archetype_label": "The Free Spirit",
+     "confidence": 0.92
+    },
+    {
+     "name": "Masao Sato",
+     "gender": "male",
+     "archetype_id": 2,
+     "archetype_label": "The Caring Heart",
+     "confidence": 0.88
     }
    ]
   },
   {
-   "book_id": "8908675425",
-   "title": "The fish",
-   "published_date": "Yesterday",
-   "summary": "Great book!",
+   "book_id": "9205847361",
+   "title": "Phantom of the Floating Bridge",
+   "published_date": "2024-10-25",
+   "genre": "Mystery & Thriller",
+   "summary": "A theater director investigates paranormal occurrences at an ancient kabuki house that claims to be haunted by a legendary performer.",
    "main_characters": [
     {
-     "name": "Malcom",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.99
+     "name": "Emiko Tanaka",
+     "gender": "female",
+     "archetype_id": 0,
+     "archetype_label": "The Quiet Thinker",
+     "confidence": 0.89
     },
     {
-     "name": "Marie",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.99
-    },
-    {
-     "name": "Annamarie",
-     "archetype_id": 1,
-     "archetype_label": "stje",
-     "confidence": 0.9
+     "name": "Riku Yamada",
+     "gender": "male",
+     "archetype_id": 3,
+     "archetype_label": "The Free Spirit",
+     "confidence": 0.91
     }
    ]
   },
   {
-   "book_id": "8908675429",
-   "title": "The great wall of China",
-   "published_date": "hte",
-   "summary": "thej",
+   "book_id": "5734629180",
+   "title": "The Garden of Forgotten Gods",
+   "published_date": "2024-08-17",
+   "genre": "Science Fiction & Fantasy",
+   "summary": "A botanist discovers an ancient garden where mythical plants grant impossible powers, but at a terrible cost.",
    "main_characters": [
     {
-     "name": "Annamarie",
+     "name": "Midori Suzuki",
+     "gender": "female",
+     "archetype_id": 2,
+     "archetype_label": "The Caring Heart",
+     "confidence": 0.93
+    },
+    {
+     "name": "Taro Okada",
+     "gender": "male",
      "archetype_id": 1,
-     "archetype_label": "stje",
-     "confidence": 0.9
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.87
+    }
+   ]
+  },
+  {
+   "book_id": "8491726530",
+   "title": "Moonlight Over the Inland Sea",
+   "published_date": "2024-06-09",
+   "genre": "Romance",
+   "summary": "Two rivals from fishing families must work together when their village faces economic ruin, discovering love along the way.",
+   "main_characters": [
+    {
+     "name": "Tomoe Katsura",
+     "gender": "female",
+     "archetype_id": 1,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.90
+    },
+    {
+     "name": "Isamu Mori",
+     "gender": "male",
+     "archetype_id": 0,
+     "archetype_label": "The Quiet Thinker",
+     "confidence": 0.85
+    }
+   ]
+  },
+  {
+   "book_id": "3762048915",
+   "title": "The Clockwork Shrine",
+   "published_date": "2024-04-12",
+   "genre": "Science Fiction & Fantasy",
+   "summary": "A Shinto priest discovers that the ancient shrine she tends is actually a machine left by an advanced civilization.",
+   "main_characters": [
+    {
+     "name": "Aiko Yamamoto",
+     "gender": "female",
+     "archetype_id": 0,
+     "archetype_label": "The Quiet Thinker",
+     "confidence": 0.94
+    },
+    {
+     "name": "Shiro Hirose",
+     "gender": "male",
+     "archetype_id": 2,
+     "archetype_label": "The Caring Heart",
+     "confidence": 0.89
+    }
+   ]
+  },
+  {
+   "book_id": "0198356742",
+   "title": "Shadow of the Geisha",
+   "published_date": "2024-02-28",
+   "genre": "Mystery & Thriller",
+   "summary": "A former geisha turned spy must infiltrate a criminal syndicate while protecting the girl who was sold into servitude as she once was.",
+   "main_characters": [
+    {
+     "name": "Chie Watanabe",
+     "gender": "female",
+     "archetype_id": 1,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.92
+    },
+    {
+     "name": "Sora Nakamura",
+     "gender": "male",
+     "archetype_id": 3,
+     "archetype_label": "The Free Spirit",
+     "confidence": 0.88
+    }
+   ]
+  },
+  {
+   "book_id": "7524193868",
+   "title": "The Bamboo Cutter's Tale",
+   "published_date": "2023-12-05",
+   "genre": "Science Fiction & Fantasy",
+   "summary": "A retelling of the ancient folktale where the princess from the moon returns to Earth with a warning about humanity's fate.",
+   "main_characters": [
+    {
+     "name": "Kaguya Takeda",
+     "gender": "female",
+     "archetype_id": 3,
+     "archetype_label": "The Free Spirit",
+     "confidence": 0.95
+    },
+    {
+     "name": "Hikaru Sato",
+     "gender": "male",
+     "archetype_id": 0,
+     "archetype_label": "The Quiet Thinker",
+     "confidence": 0.86
+    }
+   ]
+  },
+  {
+   "book_id": "4839065127",
+   "title": "The Last Sword Master",
+   "published_date": "2023-10-18",
+   "genre": "Biography & Memoir",
+   "summary": "The life and legacy of Musashi Miyamoto reimagined through the eyes of his greatest student.",
+   "main_characters": [
+    {
+     "name": "Musashi Miyamoto",
+     "gender": "male",
+     "archetype_id": 1,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.91
+    },
+    {
+     "name": "Okita Tomoe",
+     "gender": "female",
+     "archetype_id": 3,
+     "archetype_label": "The Free Spirit",
+     "confidence": 0.87
+    }
+   ]
+  },
+  {
+   "book_id": "6027841539",
+   "title": "Voices in the Steam",
+   "published_date": "2023-08-30",
+   "genre": "Mystery & Thriller",
+   "summary": "In a train bound for Tokyo, a journalist discovers she's traveling with a serial killer and must solve his crimes before reaching the station.",
+   "main_characters": [
+    {
+     "name": "Noriko Suzuki",
+     "gender": "female",
+     "archetype_id": 0,
+     "archetype_label": "The Quiet Thinker",
+     "confidence": 0.93
+    },
+    {
+     "name": "Kaito Ishikawa",
+     "gender": "male",
+     "archetype_id": 2,
+     "archetype_label": "The Caring Heart",
+     "confidence": 0.84
+    }
+   ]
+  },
+  {
+   "book_id": "1593874206",
+   "title": "The Flower and the Storm",
+   "published_date": "2023-06-14",
+   "genre": "Romance",
+   "summary": "A delicate ikebana artist and a fierce storm chaser find unexpected love as they discover that opposing forces can create harmony.",
+   "main_characters": [
+    {
+     "name": "Hana Kiyomizu",
+     "gender": "female",
+     "archetype_id": 2,
+     "archetype_label": "The Caring Heart",
+     "confidence": 0.91
+    },
+    {
+     "name": "Arashi Yamane",
+     "gender": "male",
+     "archetype_id": 1,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.89
+    }
+   ]
+  },
+  {
+   "book_id": "9876354201",
+   "title": "The Forgetting Pool",
+   "published_date": "2023-04-22",
+   "genre": "Science Fiction & Fantasy",
+   "summary": "In a city where memories are erased at death, a young woman's preserved consciousness becomes the key to discovering an ancient truth.",
+   "main_characters": [
+    {
+     "name": "Yume Sato",
+     "gender": "female",
+     "archetype_id": 3,
+     "archetype_label": "The Free Spirit",
+     "confidence": 0.92
+    },
+    {
+     "name": "Katsu Yamamoto",
+     "gender": "male",
+     "archetype_id": 0,
+     "archetype_label": "The Quiet Thinker",
+     "confidence": 0.88
+    }
+   ]
+  },
+  {
+   "book_id": "2741695083",
+   "title": "Nonfiction: The Way of Tea",
+   "published_date": "2023-02-10",
+   "genre": "Nonfiction",
+   "summary": "An exploration of how the Japanese tea ceremony influenced philosophy, art, and culture for over 500 years.",
+   "main_characters": [
+    {
+     "name": "Takako Murakami",
+     "gender": "female",
+     "archetype_id": 0,
+     "archetype_label": "The Quiet Thinker",
+     "confidence": 0.95
+    },
+    {
+     "name": "Hiroshi Nakamura",
+     "gender": "male",
+     "archetype_id": 2,
+     "archetype_label": "The Caring Heart",
+     "confidence": 0.90
+    }
+   ]
+  },
+  {
+   "book_id": "5108637294",
+   "title": "The Obsidian Blade",
+   "published_date": "2022-12-03",
+   "genre": "Science Fiction & Fantasy",
+   "summary": "A cursed sword from feudal Japan appears in modern Tokyo, awakening ancient magic and drawing together unlikely heroes.",
+   "main_characters": [
+    {
+     "name": "Katsumi Yoshida",
+     "gender": "female",
+     "archetype_id": 1,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.90
+    },
+    {
+     "name": "Raiden Nakajima",
+     "gender": "male",
+     "archetype_id": 3,
+     "archetype_label": "The Free Spirit",
+     "confidence": 0.86
+    }
+   ]
+  },
+  {
+   "book_id": "8364107526",
+   "title": "The Lantern Keeper",
+   "published_date": "2022-09-17",
+   "genre": "Biography & Memoir",
+   "summary": "A true account of a lighthouse keeper on a remote Japanese island who became a hero during World War II.",
+   "main_characters": [
+    {
+     "name": "Fumiko Tanaka",
+     "gender": "female",
+     "archetype_id": 2,
+     "archetype_label": "The Caring Heart",
+     "confidence": 0.93
+    },
+    {
+     "name": "Noboru Ishizaki",
+     "gender": "male",
+     "archetype_id": 1,
+     "archetype_label": "The Bold Leader",
+     "confidence": 0.91
+    }
+   ]
+  },
+  {
+   "book_id": "3482916750",
+   "title": "Autumn in the Merchant's House",
+   "published_date": "2022-07-24",
+   "genre": "Romance",
+   "summary": "In Edo-period Japan, a merchant's daughter and a ronin find solace and love while navigating duty, honor, and forbidden desire.",
+   "main_characters": [
+    {
+     "name": "Otsuka Yuki",
+     "gender": "female",
+     "archetype_id": 0,
+     "archetype_label": "The Quiet Thinker",
+     "confidence": 0.89
     }
    ]
   }

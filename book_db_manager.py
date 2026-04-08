@@ -88,3 +88,37 @@ def retrieve_entire_book_database():
     except json.JSONDecodeError:
         return {"error": "Invalid JSON format"}
 
+
+def recommend_books_based_on_archetype(archetype_id: int):
+    try:
+
+        recommended_books = []
+
+        with open('db/book_db.json', 'r') as file:
+            data = json.load(file)
+
+        for book in data["books"]:
+            matching_characters = []
+
+            for character in book["main_characters"]:
+                if character["archetype_id"] == archetype_id:
+                    matching_characters.append(character)
+
+            if matching_characters:
+                recommended_books.append({
+                    "title": book["title"],
+                    "published_date": book["published_date"],
+                    "genre": book["genre"],
+                    "summary": book["summary"],
+                    "matching_characters": matching_characters
+                })
+
+        recommended_books.sort(key=lambda added_book : added_book["published_date"], reverse=True)
+
+        recommended_books_and_characters = {"recommended_books" : recommended_books}
+        return recommended_books_and_characters
+
+    except FileNotFoundError:
+        return {"error": "Database file not found"}
+    except json.JSONDecodeError:
+        return {"error": "Invalid JSON format"}

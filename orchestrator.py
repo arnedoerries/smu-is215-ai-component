@@ -2,7 +2,7 @@ import datetime
 
 from archetype_prediction import predict_character_archetype
 from user_db_manager import add_character_archetype_prediction_to_user_db
-from book_db_manager import add_new_book_character_to_book_db
+from book_db_manager import add_new_book_character_to_book_db, recommend_books_based_on_archetype
 
 def predict_for_user_and_add_to_user_db(user_id: str, user_first_name: str, user_last_name: str, character_description: str):
 
@@ -16,10 +16,12 @@ def predict_for_user_and_add_to_user_db(user_id: str, user_first_name: str, user
 
     add_character_archetype_prediction_to_user_db(user_id, user_first_name, user_last_name, character_description, matched_archetype_index, matched_archetype_label, matching_confidence)
 
-    return {
+    save = {
         "archetype": matched_archetype_label,
         "confidence": round(matching_confidence, 2)
     }
+
+    return recommend_books_based_on_archetype(matched_archetype_index)
 
 def predict_for_new_character_and_add_to_book_db(book_id: str, book_title: str, book_published_date: datetime.date, book_genre: str, book_short_summary: str, character_name: str, character_gender: str, character_description: str):
 

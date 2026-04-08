@@ -128,9 +128,7 @@
    "character_description": "A strong and bold leader.",
    "matched_archetype_index": 1,
    "matched_archetype_label": "The Bold Leader",
-   "matching_confidence": 1.0,
-   "first_name": "Maxxxxxxxx",
-   "last_name": "Milllllian"
+   "matching_confidence": 1.0
   },
   {
    "user_id": "1212121212",
@@ -140,6 +138,16 @@
    "character_description": "He explored new paths simply for the thrill of it, She challenged authority whenever it suited her mood, He constantly changed plans based on whims and impulses, He made unpredictable decisions that left others scrambling",
    "matched_archetype_index": 3,
    "matched_archetype_label": "The Free Spirit",
+   "matching_confidence": 1.0
+  },
+  {
+   "user_id": "8192648311",
+   "user_first_name": "Mark",
+   "user_last_name": "Cuban",
+   "last_updated": "2026-04-09T01:01:06.513623",
+   "character_description": "A bold leader",
+   "matched_archetype_index": 1,
+   "matched_archetype_label": "The Bold Leader",
    "matching_confidence": 1.0
   }
  ]
