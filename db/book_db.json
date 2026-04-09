@@ -454,6 +454,29 @@
    ]
   },
   {
-   "book_id": "9784167891",
-   "title": "Kitsune no Yume: The Fox's Dream",
-   "published_date": 
+   "book_id": "9784567890",
+   "title": "The Crimson Lantern of Kyoto",
+   "published_date": "2023-06-15",
+   "genre": "Mystery & Thriller",
+   "summary": "A gripping mystery set in post-war Kyoto where a detective must uncover the secrets hidden within an ancient temple and solve the disappearance of a renowned geisha before the autumn festival begins.",
+   "main_characters": [
+    {
+     "name": "Akira Tanaka",
+     "gender": "male",
+     "description": "A bold leader",
+     "archetype_id": 1,
+     "archetype_label": "The Bold Leader",
+     "confidence": 1.0
+    },
+    {
+     "name": "Miu Tanaka",
+     "gender": "female",
+     "description": "A caring character that watches out for her friends and wins through empathy",
+     "archetype_id": 2,
+     "archetype_label": "The Caring Heart",
+     "confidence": 0.99
+    }
+   ]
+  }
+ ]
+}

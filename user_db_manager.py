@@ -1,12 +1,15 @@
 import json
 import datetime
 
+
 def add_character_archetype_prediction_to_user_db(user_id: str, user_first_name: str, user_last_name: str, character_description: str, predicted_archetype_index: int, predicted_archetype_label: str, matching_confidence: float):
     try:
         with open('db/user_db.json', 'r') as file:
             data = json.load(file)
 
         user_already_in_db = False
+
+        db_operation_feedback = {}
 
         for user in data["users"]:
             if user["user_id"] == user_id:
@@ -18,7 +21,8 @@ def add_character_archetype_prediction_to_user_db(user_id: str, user_first_name:
                 user["matched_archetype_index"] = predicted_archetype_index
                 user["matched_archetype_label"] = predicted_archetype_label
                 user["matching_confidence"] = matching_confidence
-                print("Notice: The user was already in the database but the records have been updated with the new character archetype matching.")
+                print("Feedback: The user was already in the database but the records have been updated with the current character archetype matching.")
+                db_operation_feedback = {"feedback": "The user was already in the database but the records have been updated with the current character archetype matching."}
                 break
 
         if not user_already_in_db:
@@ -31,15 +35,20 @@ def add_character_archetype_prediction_to_user_db(user_id: str, user_first_name:
                                   "matched_archetype_label": predicted_archetype_label,
                                   "matching_confidence": matching_confidence})
             print("Success: The new user and their archetype matching have been added to the database.")
+            db_operation_feedback = {"feedback": "The new user and their archetype matching have been added to the database."}
 
         with open('db/user_db.json', 'w') as file:
             json.dump(data, file, indent=1)
 
-        return True
+        return db_operation_feedback
 
     except FileNotFoundError:
-        print("Error: Database file not found")
-        return False
+        print("Error: User database file not found")
+        return {"error": "User database file not found"}
+
+    except json.JSONDecodeError:
+        print("Error: Invalid JSON format")
+        return {"error": "Invalid JSON format"}
 
 
 def retrieve_user_data_product(user_id: str):
@@ -58,6 +67,7 @@ def retrieve_user_data_product(user_id: str):
     except json.JSONDecodeError:
         return {"error": "Invalid JSON format"}
 
+
 def retrieve_entire_user_database():
     try:
         with open('db/user_db.json', 'r') as file:
@@ -69,5 +79,3 @@ def retrieve_entire_user_database():
         return {"error": "Database file not found"}
     except json.JSONDecodeError:
         return {"error": "Invalid JSON format"}
-
-

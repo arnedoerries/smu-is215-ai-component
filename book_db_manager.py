@@ -10,13 +10,18 @@ def add_new_book_character_to_book_db(book_id: str, book_title: str, book_publis
         book_already_in_db = False
         character_already_in_db = False
 
+        db_operation_feedback = {}
+
         for book in data["books"]:
             if book["book_id"] == book_id:
                 book_already_in_db = True
                 for character in book["main_characters"]:
                     if character["name"] == character_name:
                         character_already_in_db = True
-                        print("Notice: This book and character are already documented in the book database")
+
+                        print("Feedback: This book and character are already documented in the book database")
+                        db_operation_feedback = {"feedback": "This book and character are already documented in the book database"}
+
                         break
 
                 if not character_already_in_db:
@@ -28,14 +33,16 @@ def add_new_book_character_to_book_db(book_id: str, book_title: str, book_publis
                         "archetype_label": matched_archetype_label,
                         "confidence": matching_confidence
                     })
+
                     print("Success: The book already exists in the database, but the new character has been successfully added.")
+                    db_operation_feedback = {"success" : "The book already exists in the database, but the new character has been successfully added."}
 
                 break
 
         if not book_already_in_db:
             data["books"].append({"book_id": book_id,
                                   "title": book_title,
-                                  "published_date": book_published_date,
+                                  "published_date": book_published_date.isoformat(),
                                   "genre": book_genre,
                                   "summary": book_summary,
                                   "main_characters": [{
@@ -49,15 +56,30 @@ def add_new_book_character_to_book_db(book_id: str, book_title: str, book_publis
                                   }
                                  )
             print("Success: The new book and new character have been successfully added to the book database.")
+            db_operation_feedback = {"success": "The new book and new character have been successfully added to the book database."}
+
+        matching_results = {
+            "character_name": character_name,
+            "matched_archetype": matched_archetype_label,
+            "matching_confidence": matching_confidence,
+        }
+
+        return_message = {
+        "matching_results": matching_results,
+        "db_operation_feedback": db_operation_feedback
+        }
 
         with open('db/book_db.json', 'w') as file:
             json.dump(data, file, indent=1)
 
-        return True
+        return return_message
 
     except FileNotFoundError:
         print("Error: Book database file not found")
-        return False
+        return {"error": "Book database file not found"}
+    except json.JSONDecodeError:
+        return {"error": "Invalid JSON format"}
+
 
 def retrieve_book_data_product(book_id: str):
     try:

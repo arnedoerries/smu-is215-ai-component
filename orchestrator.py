@@ -10,18 +10,23 @@ def predict_for_user_and_add_to_user_db(user_id: str, user_first_name: str, user
 
     if matching_confidence < 0.8:
         return {
-            "user feedback": "Sorry, we couldn't match your description to any character archetype. Please select one manually.",
-            "system feedback": "Nothing has been added to or changed about the user database."
+            "user_feedback": "Sorry, we couldn't match your description to any character archetype. Please select one manually.",
+            "db_operation_feedback": "Nothing has been added to or changed about the user database."
         }
 
-    add_character_archetype_prediction_to_user_db(user_id, user_first_name, user_last_name, character_description, matched_archetype_index, matched_archetype_label, matching_confidence)
+    db_operation_feedback = add_character_archetype_prediction_to_user_db(user_id, user_first_name, user_last_name, character_description, matched_archetype_index, matched_archetype_label, matching_confidence)
 
-    summary = {
-        "archetype": matched_archetype_label,
-        "confidence": matching_confidence
+    matching_results = {
+        "matched_archetype": matched_archetype_label,
+        "matching_confidence": matching_confidence
     }
 
-    return summary
+    return_message = {
+        "matching_results": matching_results,
+        "db_operation_feedback": db_operation_feedback
+    }
+
+    return return_message
 
 def predict_for_new_character_and_add_to_book_db(book_id: str, book_title: str, book_published_date: datetime.date, book_genre: str, book_short_summary: str, character_name: str, character_gender: str, character_description: str):
 
