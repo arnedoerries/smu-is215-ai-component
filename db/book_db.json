@@ -104,7 +104,7 @@
      "gender": "female",
      "archetype_id": 0,
      "archetype_label": "The Quiet Thinker",
-     "confidence": 0.90
+     "confidence": 0.9
     },
     {
      "name": "Koji Nakajima",
@@ -196,7 +196,7 @@
      "gender": "female",
      "archetype_id": 1,
      "archetype_label": "The Bold Leader",
-     "confidence": 0.90
+     "confidence": 0.9
     },
     {
      "name": "Isamu Mori",
@@ -387,7 +387,7 @@
      "gender": "male",
      "archetype_id": 2,
      "archetype_label": "The Caring Heart",
-     "confidence": 0.90
+     "confidence": 0.9
     }
    ]
   },
@@ -403,7 +403,7 @@
      "gender": "female",
      "archetype_id": 1,
      "archetype_label": "The Bold Leader",
-     "confidence": 0.90
+     "confidence": 0.9
     },
     {
      "name": "Raiden Nakajima",
@@ -452,6 +452,8 @@
      "confidence": 0.89
     }
    ]
-  }
- ]
-}
+  },
+  {
+   "book_id": "9784167891",
+   "title": "Kitsune no Yume: The Fox's Dream",
+   "published_date": 

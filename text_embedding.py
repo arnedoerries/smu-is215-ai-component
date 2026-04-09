@@ -29,6 +29,5 @@ def embed_character_description(input_character_description: str):
         convert_to_numpy=True,
         normalize_embeddings=True
     )
-    print("The character description has been embedded:")
-    print(embedded_character_description)
+    print("Success: The character description has been successfully embedded.")
     return embedded_character_description

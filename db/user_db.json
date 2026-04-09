@@ -1,154 +1,204 @@
 {
  "users": [
   {
-   "user_id": "9082109211",
-   "user_first_name": "Harry",
-   "user_last_name": "Potter",
-   "last_updated": "2026-03-06T15:13:51.945532",
-   "character_description": "An character who managed to be the main character without being overly extroverted",
-   "matched_archetype": 0,
+   "user_id": "3847261095",
+   "user_first_name": "Wei Ling",
+   "user_last_name": "Tan",
+   "last_updated": "2026-03-12T09:14:22.113400",
+   "character_description": "I love characters who observe quietly, think deeply before acting, and always seem to know more than they let on.",
+   "matched_archetype_index": 0,
    "matched_archetype_label": "The Quiet Thinker",
-   "matching_confidence": 0.82
+   "matching_confidence": 0.95
   },
   {
-   "user_id": "8902019232",
-   "user_first_name": "John",
-   "user_last_name": "Baker",
-   "last_updated": "2026-04-07T11:07:11.088295",
-   "character_description": "I like strong characters",
-   "matched_archetype": 1,
+   "user_id": "5021847362",
+   "user_first_name": "Oliver",
+   "user_last_name": "Whitfield",
+   "last_updated": "2026-03-15T14:33:10.228910",
+   "character_description": "I enjoy reading about bold, decisive characters who take charge and inspire those around them to follow.",
+   "matched_archetype_index": 1,
    "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 0.97
+  },
+  {
+   "user_id": "7193025846",
+   "user_first_name": "Priya",
+   "user_last_name": "Nair",
+   "last_updated": "2026-03-20T08:55:47.661023",
+   "character_description": "My favourite characters are warm and nurturing, always putting others first and holding the group together emotionally.",
+   "matched_archetype_index": 2,
+   "matched_archetype_label": "The Caring Heart",
+   "matching_confidence": 0.93
+  },
+  {
+   "user_id": "6204817539",
+   "user_first_name": "Alistair",
+   "user_last_name": "Pemberton",
+   "last_updated": "2026-03-25T17:02:33.784512",
+   "character_description": "I like unpredictable protagonists who follow their instincts, break the rules, and keep everyone guessing.",
+   "matched_archetype_index": 3,
+   "matched_archetype_label": "The Free Spirit",
+   "matching_confidence": 0.91
+  },
+  {
+   "user_id": "9371045628",
+   "user_first_name": "Mei Xuan",
+   "user_last_name": "Lim",
+   "last_updated": "2026-03-29T11:20:05.330187",
+   "character_description": "I prefer characters who are quietly brilliant, solving problems through careful analysis rather than brute force.",
+   "matched_archetype_index": 0,
+   "matched_archetype_label": "The Quiet Thinker",
+   "matching_confidence": 0.88
+  },
+  {
+   "user_id": "1058374629",
+   "user_first_name": "Rajan",
+   "user_last_name": "Krishnamurthy",
+   "last_updated": "2026-04-01T10:48:19.902341",
+   "character_description": "Give me a strong leader who rallies people in a crisis, makes tough calls, and never backs down from a challenge.",
+   "matched_archetype_index": 1,
+   "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 0.96
+  },
+  {
+   "user_id": "4826130957",
+   "user_first_name": "Charlotte",
+   "user_last_name": "Ashworth",
+   "last_updated": "2026-04-03T13:11:44.556720",
+   "character_description": "I love characters whose greatest strength is empathy \u2014 they listen deeply and always know exactly what someone needs to hear.",
+   "matched_archetype_index": 2,
+   "matched_archetype_label": "The Caring Heart",
+   "matching_confidence": 0.94
+  },
+  {
+   "user_id": "2739486150",
+   "user_first_name": "Harish",
+   "user_last_name": "Subramaniam",
+   "last_updated": "2026-04-05T16:37:28.119834",
+   "character_description": "I enjoy adventurous characters who wander into the unknown, embrace change, and never feel tied down by expectations.",
+   "matched_archetype_index": 3,
+   "matched_archetype_label": "The Free Spirit",
+   "matching_confidence": 0.89
+  },
+  {
+   "user_id": "8463019275",
+   "user_first_name": "Jing Yi",
+   "user_last_name": "Chua",
+   "last_updated": "2026-04-07T09:05:53.774610",
+   "character_description": "My favourite protagonists are introspective and reserved \u2014 the kind who surprise you with how much they have noticed all along.",
+   "matched_archetype_index": 0,
+   "matched_archetype_label": "The Quiet Thinker",
    "matching_confidence": 0.92
   },
   {
-   "user_id": "8902019232",
-   "user_first_name": "Harry Potter",
-   "user_last_name": "Baker",
-   "last_updated": "2026-04-07T11:19:55.525062",
-   "character_description": "I like strong characters",
+   "user_id": "5917348026",
+   "user_first_name": "Edward",
+   "user_last_name": "Worthington",
+   "last_updated": "2026-04-08T14:52:06.443291",
+   "character_description": "I am drawn to fearless characters who charge headfirst into danger and motivate others through sheer force of will.",
    "matched_archetype_index": 1,
    "matched_archetype_label": "The Bold Leader",
-   "matching_confidence": 0.9
-  },
-  {
-   "user_id": "1182109211",
-   "user_first_name": "Ron",
-   "user_last_name": "Wesley",
-   "last_updated": "2026-04-08T15:08:13.909815",
-   "character_description": "I like a main character with courage that is fearless and overcomes all enemies through facing them directly.",
-   "matched_archetype_index": 1,
-   "matched_archetype_label": "The Bold Leader",
-   "matching_confidence": 0.99
-  },
-  {
-   "user_id": "1182109299",
-   "user_first_name": "Albert",
-   "user_last_name": "Einstein",
-   "last_updated": "2026-04-08T15:13:51.945532",
-   "character_description": "I like characters that think things through quietly, weighing all options, measuring every word before responding.",
-   "matched_archetype_index": 0,
-   "matched_archetype_label": "The Quiet Thinker",
-   "matching_confidence": 0.99
-  },
-  {
-   "user_id": "6666667777",
-   "user_first_name": "Jahama",
-   "user_last_name": "Crentos",
-   "last_updated": "2026-04-08T19:52:30.305824",
-   "character_description": "I like a character with courage who is bold and protects their friends.",
-   "matched_archetype_index": 1,
-   "matched_archetype_label": "The Bold Leader",
-   "matching_confidence": 0.91
-  },
-  {
-   "user_id": "6666667777",
-   "user_first_name": "Jahama",
-   "user_last_name": "Crentos",
-   "last_updated": "2026-04-08T19:52:37.322993",
-   "character_description": "I like a character with courage who is bold and protects their friends.",
-   "matched_archetype_index": 1,
-   "matched_archetype_label": "The Bold Leader",
-   "matching_confidence": 0.91
-  },
-  {
-   "user_id": "6666667777",
-   "user_first_name": "Jahama",
-   "user_last_name": "Crentos",
-   "last_updated": "2026-04-08T19:52:45.706630",
-   "character_description": "I like a character with courage who is bold and protects their friends.",
-   "matched_archetype_index": 1,
-   "matched_archetype_label": "The Bold Leader",
-   "matching_confidence": 0.91
-  },
-  {
-   "user_id": "1234567890",
-   "user_first_name": "Jeniiiiiiiiiiiii",
-   "user_last_name": "Crentos",
-   "last_updated": "2026-04-08T20:15:19.159042",
-   "character_description": "A strong and bold leader.",
-   "matched_archetype_index": 1,
-   "matched_archetype_label": "The Bold Leader",
-   "matching_confidence": 1.0
-  },
-  {
-   "user_id": "1234567890",
-   "user_first_name": "Jeniiiiiiiiiiiii",
-   "user_last_name": "Crentos",
-   "last_updated": "2026-04-08T19:57:00.700919",
-   "character_description": "A strong and bold leader.",
-   "matched_archetype_index": 1,
-   "matched_archetype_label": "The Bold Leader",
-   "matching_confidence": 1.0
-  },
-  {
-   "user_id": "1234567890",
-   "user_first_name": "Jeniiiiiiiiiiiii",
-   "user_last_name": "Crentos",
-   "last_updated": "2026-04-08T20:05:25.241163",
-   "character_description": "A strong and bold leader.",
-   "matched_archetype_index": 1,
-   "matched_archetype_label": "The Bold Leader",
-   "matching_confidence": 1.0
-  },
-  {
-   "user_id": "0000000000",
-   "user_first_name": "Finn",
-   "user_last_name": "Johnson",
-   "last_updated": "2026-04-08T20:16:54.265994",
-   "character_description": "Strong leader",
-   "matched_archetype_index": 0,
-   "matched_archetype_label": "Silent Listener",
    "matching_confidence": 0.98
   },
   {
-   "user_id": "7777777777",
-   "user_first_name": "Maxxxxxxxx",
-   "user_last_name": "Milllllian",
-   "last_updated": "2026-04-08T20:24:20.862132",
-   "character_description": "A strong and bold leader.",
-   "matched_archetype_index": 1,
-   "matched_archetype_label": "The Bold Leader",
-   "matching_confidence": 1.0
+   "user_id": "3056194728",
+   "user_first_name": "Nurul",
+   "user_last_name": "Aisyah",
+   "last_updated": "2026-04-08T16:10:33.887201",
+   "character_description": "I like characters who sacrifice their own needs to protect the people they love, even when no one asks them to.",
+   "matched_archetype_index": 2,
+   "matched_archetype_label": "The Caring Heart",
+   "matching_confidence": 0.96
   },
   {
-   "user_id": "1212121212",
-   "user_first_name": "Claudius",
-   "user_last_name": "Pasta",
-   "last_updated": "2026-04-08T21:21:51.971222",
-   "character_description": "He explored new paths simply for the thrill of it, She challenged authority whenever it suited her mood, He constantly changed plans based on whims and impulses, He made unpredictable decisions that left others scrambling",
+   "user_id": "7482930516",
+   "user_first_name": "Sebastian",
+   "user_last_name": "Holt",
+   "last_updated": "2026-04-08T16:45:12.334782",
+   "character_description": "I want a character who lives on pure instinct \u2014 spontaneous, free-willed, and completely unbothered by consequences.",
    "matched_archetype_index": 3,
    "matched_archetype_label": "The Free Spirit",
-   "matching_confidence": 1.0
+   "matching_confidence": 0.87
   },
   {
-   "user_id": "8192648311",
-   "user_first_name": "Mark",
-   "user_last_name": "Cuban",
-   "last_updated": "2026-04-09T01:01:06.513623",
-   "character_description": "A bold leader",
+   "user_id": "6190385274",
+   "user_first_name": "Xiu Fen",
+   "user_last_name": "Wong",
+   "last_updated": "2026-04-08T17:03:58.119045",
+   "character_description": "The best protagonists are methodical and calm under pressure \u2014 they win through patience and precision, not luck.",
+   "matched_archetype_index": 0,
+   "matched_archetype_label": "The Quiet Thinker",
+   "matching_confidence": 0.93
+  },
+  {
+   "user_id": "8047523961",
+   "user_first_name": "Amirul",
+   "user_last_name": "Hakim",
+   "last_updated": "2026-04-08T17:29:44.665310",
+   "character_description": "I love a protagonist who commands respect the moment they walk into a room and always knows what decision to make.",
    "matched_archetype_index": 1,
    "matched_archetype_label": "The Bold Leader",
-   "matching_confidence": 1.0
+   "matching_confidence": 0.95
+  },
+  {
+   "user_id": "2318407659",
+   "user_first_name": "Isabelle",
+   "user_last_name": "Fairfax",
+   "last_updated": "2026-04-08T18:01:07.220934",
+   "character_description": "I gravitate towards characters who are gentle and compassionate \u2014 the emotional anchor that holds the whole story together.",
+   "matched_archetype_index": 2,
+   "matched_archetype_label": "The Caring Heart",
+   "matching_confidence": 0.9
+  },
+  {
+   "user_id": "9654710382",
+   "user_first_name": "Kai Sheng",
+   "user_last_name": "Goh",
+   "last_updated": "2026-04-08T18:22:51.774128",
+   "character_description": "I enjoy characters who question everything, resist being boxed in, and carve their own path regardless of what others think.",
+   "matched_archetype_index": 3,
+   "matched_archetype_label": "The Free Spirit",
+   "matching_confidence": 0.92
+  },
+  {
+   "user_id": "4723816095",
+   "user_first_name": "Deepa",
+   "user_last_name": "Menon",
+   "last_updated": "2026-04-08T18:50:39.451867",
+   "character_description": "My ideal character is a quiet observer who pieces together the full picture while everyone else is still reacting.",
+   "matched_archetype_index": 0,
+   "matched_archetype_label": "The Quiet Thinker",
+   "matching_confidence": 0.91
+  },
+  {
+   "user_id": "5839201476",
+   "user_first_name": "Marcus",
+   "user_last_name": "Thornton",
+   "last_updated": "2026-04-08T19:14:22.883541",
+   "character_description": "Nothing beats a character who steps up when everything is falling apart and rallies the team to victory against all odds.",
+   "matched_archetype_index": 1,
+   "matched_archetype_label": "The Bold Leader",
+   "matching_confidence": 0.97
+  },
+  {
+   "user_id": "1067493852",
+   "user_first_name": "Siti",
+   "user_last_name": "Rahimah",
+   "last_updated": "2026-04-08T19:38:17.002674",
+   "character_description": "I love characters who show kindness without expecting anything in return and quietly change the lives of everyone around them.",
+   "matched_archetype_index": 2,
+   "matched_archetype_label": "The Caring Heart",
+   "matching_confidence": 0.94
+  },
+  {
+   "user_id": "3495072618",
+   "user_first_name": "Barnaby",
+   "user_last_name": "Wren",
+   "last_updated": "2026-04-08T20:05:44.119302",
+   "character_description": "I am drawn to wanderers and dreamers \u2014 characters who stumble into adventure and reinvent themselves along the way.",
+   "matched_archetype_index": 3,
+   "matched_archetype_label": "The Free Spirit",
+   "matching_confidence": 0.88
   }
  ]
 }

@@ -15,11 +15,11 @@
 - **Group:** 8
 - **Group members:** Arne, Carmen, Joshua, Megan, Mikhail, Shi Hui
 
-### How to run the service
+### How to run the service locally
 1. Clone the repository locally and open with IDE of choice
 2. Optional but recommended: set up a local virtual environment and activate it
-3. Install all required packages (in the virtual environment)
-4. Open the terminal and run `fastapi dev` to start the service
+3. Run `make install` in the terminal to install all required packages
+4. Run `make run` to start the fastapi server
 5. Once the fastapi server is running, check the terminal output for a line that says `Documentation at http://127.0.0.1:8000/docs` and open the page
 6. View the fastapi overview of the api endpoints and familiarize yourself with the required inputs
 7. Use a local api endpoint testing tool like Postman to send requests to the service

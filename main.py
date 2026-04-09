@@ -5,7 +5,7 @@ from typing import Literal
 
 from orchestrator import predict_for_user_and_add_to_user_db, predict_for_new_character_and_add_to_book_db
 from user_db_manager import retrieve_user_data_product, retrieve_entire_user_database
-from book_db_manager import retrieve_book_data_product, retrieve_entire_book_database
+from book_db_manager import retrieve_book_data_product, retrieve_entire_book_database, recommend_books_based_on_archetype
 
 
 app = FastAPI()
@@ -26,16 +26,24 @@ class NewBookCharacterInput(BaseModel):
     character_gender: Literal["male", "female", "other"]
     character_description: str
 
+class CharacterArchetypeInput(BaseModel):
+    archetype_index: int = Field(..., ge=0, le=3)
+
 class UserDataProductInput(BaseModel):
     user_id: str = Field(..., min_length=10, max_length=10, pattern="^[0-9]{10}$")
 
 class BookDataProductInput(BaseModel):
     book_id: str = Field(..., min_length=10, max_length=10, pattern="^[0-9]{10}$")
 
-# This first endpoint is our main endpoint for the user interaction
-@app.post("/getUserBookRecommendations/")
+# This first endpoint allows us to identify the character archetype for the user
+@app.post("/predictCharacterArchetypeForUser/")
 async def create_item(item: UserCharacterDescriptionInput):
     return predict_for_user_and_add_to_user_db(item.user_id, item.user_first_name, item.user_last_name, item.character_description)
+
+# Once the character archetype is given, this second endpoint allows us to recommend books and characters that match the preference
+@app.get("/getBookRecommendationsForArchetype/")
+async def read_item(item: CharacterArchetypeInput):
+    return recommend_books_based_on_archetype(item.archetype_index)
 
 # This second endpoint is for adding new characters for newly released books so that users can get it recommended
 @app.post("/addNewBookCharacter/")
