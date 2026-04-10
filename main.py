@@ -1,5 +1,6 @@
 import datetime
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 from typing import Literal
 
@@ -9,6 +10,14 @@ from book_db_manager import retrieve_book_data_product, retrieve_entire_book_dat
 
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class UserCharacterDescriptionInput(BaseModel):
     user_id: str = Field(..., min_length=10, max_length=10, pattern="^[0-9]{10}$")
@@ -41,7 +50,7 @@ async def create_item(item: UserCharacterDescriptionInput):
     return predict_for_user_and_add_to_user_db(item.user_id, item.user_first_name, item.user_last_name, item.character_description)
 
 # Once the character archetype is given, this second endpoint allows us to recommend books and characters that match the preference
-@app.get("/getBookRecommendationsForArchetype/")
+@app.post("/getBookRecommendationsForArchetype/")
 async def read_item(item: CharacterArchetypeInput):
     return recommend_books_based_on_archetype(item.archetype_index)
 
