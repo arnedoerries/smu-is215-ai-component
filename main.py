@@ -29,13 +29,15 @@ class NewBookCharacterInput(BaseModel):
     book_id: str = Field(..., min_length=10, max_length=10, pattern="^[0-9]{10}$")
     book_title: str
     book_published_date: datetime.date
-    book_genre: Literal["Mystery & Thriller", "Science Fiction & Fantasy", "Romance", "Nonfiction", "Biography & Memoir"]
+    book_genre: Literal["Fantasy", "Science Fiction", "Romance", "Historical Fiction", "Coming of Age", "Adventure"]
     book_short_summary: str
     character_name: str
-    character_gender: Literal["male", "female", "other"]
+    character_gender: Literal["male", "female", "either"]
     character_description: str
 
-class CharacterArchetypeInput(BaseModel):
+class BookRecommendationInput(BaseModel):
+    book_genre: Literal["Fantasy", "Science Fiction", "Romance", "Historical Fiction", "Coming of Age", "Adventure"]
+    character_gender_preference: Literal["either", "female", "male"]
     archetype_index: int = Field(..., ge=0, le=3)
 
 class UserDataProductInput(BaseModel):
@@ -51,8 +53,8 @@ async def create_item(item: UserCharacterDescriptionInput):
 
 # Once the character archetype is given, this second endpoint allows us to recommend books and characters that match the preference
 @app.post("/getBookRecommendationsForArchetype/")
-async def read_item(item: CharacterArchetypeInput):
-    return recommend_books_based_on_archetype(item.archetype_index)
+async def read_item(item: BookRecommendationInput):
+    return recommend_books_based_on_archetype(item.book_genre, item.character_gender_preference, item.archetype_index)
 
 # This second endpoint is for adding new characters for newly released books so that users can get it recommended
 @app.post("/addNewBookCharacter/")

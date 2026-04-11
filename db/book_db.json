@@ -1,482 +1,777 @@
 {
- "books": [
-  {
-   "book_id": "2849305834",
-   "title": "The Silence of Kyoto",
-   "published_date": "2025-11-15",
-   "genre": "Mystery & Thriller",
-   "summary": "A detective returns to her ancestral home in Kyoto to solve a decades-old murder that mirrors her sister's mysterious disappearance.",
-   "main_characters": [
+  "books": [
     {
-     "name": "Akira Tanaka",
-     "gender": "female",
-     "archetype_id": 0,
-     "archetype_label": "The Quiet Thinker",
-     "confidence": 0.92
+      "book_id": "2849305834",
+      "title": "The Silence of Kyoto",
+      "published_date": "2025-11-15",
+      "genre": "Fantasy",
+      "summary": "A shrine maiden discovers she can hear the whispers of forgotten gods, and must decipher their warnings before an ancient curse consumes her city.",
+      "main_characters": [
+        {
+          "name": "Akira Tanaka",
+          "gender": "female",
+          "description": "She sat alone at the edge of the shrine steps long after the others had gone, listening to a silence only she could hear. 'There is something in the stillness,' she told her sister once, 'something that speaks if you are patient enough.' She never raised her voice, even in argument — her stillness was its own kind of authority. The other maidens called her distant, but those who knew her understood she was simply elsewhere, always thinking three steps ahead. When she finally spoke at the council, every word landed like a stone dropped into still water. She kept a journal that was more questions than answers, filling page after page with observations no one else thought to make. Her hands would pause mid-task whenever a new idea struck, and she would stand motionless for minutes, working it through. 'Akira does not solve problems,' her mentor said, 'she dissolves them, slowly, from within.'",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.92
+        },
+        {
+          "name": "Kenji Yamamoto",
+          "gender": "male",
+          "description": "He was the first through the gate and always the last to retreat, his presence filling a room before he even spoke. 'Someone has to decide,' he would say, and somehow it was always him. The younger soldiers watched him the way young trees lean toward the sun — instinctively, without knowing why. Even his failures carried a kind of momentum; he fell forward, never back. In the war council he challenged the elder three times before any other man opened his mouth. 'Courage is not the absence of doubt,' he told his unit on the night before the crossing, 'it is deciding that something else matters more.' He organized the evacuation of the lower district in under an hour, shouting orders with a calm that seemed almost supernatural. Those who had fought beside him said you always knew where Kenji was — not because he was loud, but because everything around him seemed to orient itself in his direction.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.88
+        }
+      ]
     },
     {
-     "name": "Kenji Yamamoto",
-     "gender": "male",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.88
-    }
-   ]
-  },
-  {
-   "book_id": "0574939297",
-   "title": "Echoes from the Floating World",
-   "published_date": "2025-09-22",
-   "genre": "Science Fiction & Fantasy",
-   "summary": "In a world where memories can be traded like currency, a memory thief discovers a fragment that could rewrite history.",
-   "main_characters": [
-    {
-     "name": "Yuki Nakamura",
-     "gender": "female",
-     "archetype_id": 3,
-     "archetype_label": "The Free Spirit",
-     "confidence": 0.91
+      "book_id": "0574939297",
+      "title": "Echoes from the Floating World",
+      "published_date": "2025-09-22",
+      "genre": "Science Fiction",
+      "summary": "In a world where memories can be traded like currency, a memory thief discovers a fragment that could rewrite history.",
+      "main_characters": [
+        {
+          "name": "Yuki Nakamura",
+          "gender": "female",
+          "description": "She had lived in seven cities before she was twenty and left each one without looking back. 'Roots are for trees,' she said with a laugh that made you want to follow her anywhere. Her bag was always half-packed, her coat always near the door. She picked up languages the way others picked up habits — quickly, casually, and without much fuss. When the memory broker offered her a contract, she read it once, shrugged, and signed. 'The worst that happens is something interesting,' she told Haruto. She navigated the black market of stolen recollections like she had been born in it, instinctively finding the gaps in every system. Even her sadness had a restless quality to it, as if grief were just another city she was passing through.",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.91
+        },
+        {
+          "name": "Haruto Sato",
+          "gender": "male",
+          "description": "He catalogued every memory he had ever purchased in a worn leather notebook, annotating each with date, source, and a single-word emotional classification. 'Understanding requires distance,' he said, though Yuki suspected he used distance as a shield. He was the kind of man who reread a message three times before replying and apologized when he bumped into furniture. His colleagues respected him deeply but rarely felt they knew him. 'You think too much,' Yuki told him. 'Yes,' he agreed, without embarrassment. He had mapped the entire memory-trade network on a single sheet of graph paper, connecting nodes with pencil lines so faint only he could follow them. When the answer finally came to him, he said nothing for a long while, just sat with it, turning it over like a stone in his palm.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.87
+        }
+      ]
     },
     {
-     "name": "Haruto Sato",
-     "gender": "male",
-     "archetype_id": 0,
-     "archetype_label": "The Quiet Thinker",
-     "confidence": 0.87
-    }
-   ]
-  },
-  {
-   "book_id": "7163482951",
-   "title": "The Tea Master's Daughter",
-   "published_date": "2025-07-08",
-   "genre": "Romance",
-   "summary": "A young tea ceremony master falls in love with a wandering poet who arrives at her remote mountain village seeking refuge.",
-   "main_characters": [
-    {
-     "name": "Sakura Ishida",
-     "gender": "female",
-     "archetype_id": 2,
-     "archetype_label": "The Caring Heart",
-     "confidence": 0.94
+      "book_id": "7163482951",
+      "title": "The Tea Master's Daughter",
+      "published_date": "2025-07-08",
+      "genre": "Romance",
+      "summary": "A young tea ceremony master falls in love with a wandering poet who arrives at her remote mountain village seeking refuge.",
+      "main_characters": [
+        {
+          "name": "Sakura Ishida",
+          "gender": "female",
+          "description": "She always poured the tea for others before herself, even when her hands were shaking from the cold. The village children came to her with their troubles the way water finds the lowest point — naturally, without thinking. 'You carry everyone,' her father told her once, and she smiled as if this were the finest compliment she had ever received. When the stranger arrived half-frozen at her gate, she had a blanket around his shoulders before he finished his sentence. She remembered every guest's preferred temperature, every neighbor's aching joint, every small preference that others forgot by morning. 'Sakura does not love loudly,' her closest friend said, 'but you feel it like warmth from a fire — steady and completely surrounding.' She wept quietly at the news of the flood, then spent the next three days feeding displaced families from her own kitchen.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.94
+        },
+        {
+          "name": "Takeshi Kobayashi",
+          "gender": "male",
+          "description": "He arrived in the village with a borrowed coat, a cracked ink stone, and no plan beyond the next poem. 'Destinations are for merchants,' he told Sakura, gesturing loosely at the mountains as if they were old friends. He wrote verses on the backs of receipts and slept in temple guesthouses and once, memorably, in a persimmon tree. Every convention he encountered he seemed to inspect briefly before setting it aside with a polite indifference. 'Does he ever worry?' the village headman asked. 'Constantly,' said Takeshi cheerfully, 'but only about interesting things.' He fell in love with Sakura the way he did everything — suddenly, completely, and without consulting anyone. When she asked his plans, he looked at her as if the question had genuinely never occurred to him.",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.89
+        }
+      ]
     },
     {
-     "name": "Takeshi Kobayashi",
-     "gender": "male",
-     "archetype_id": 3,
-     "archetype_label": "The Free Spirit",
-     "confidence": 0.89
-    }
-   ]
-  },
-  {
-   "book_id": "4928175603",
-   "title": "Whispers of the Samurai Code",
-   "published_date": "2025-05-14",
-   "genre": "Mystery & Thriller",
-   "summary": "A martial arts instructor uncovers a conspiracy when her prized student is accused of murder, leading her to question everything she knows.",
-   "main_characters": [
-    {
-     "name": "Hana Fujita",
-     "gender": "female",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.93
+      "book_id": "6351890472",
+      "title": "City of Cherry Blossoms and Neon",
+      "published_date": "2025-03-20",
+      "genre": "Science Fiction",
+      "summary": "Tokyo in 2087: a hacker with synthetic memories must uncover who she really is before her creators erase her existence.",
+      "main_characters": [
+        {
+          "name": "Rei Nakamura",
+          "gender": "female",
+          "description": "She dissected problems the way a surgeon opens a chest — methodically, without sentiment, with complete attention. Her apartment had no decoration except three whiteboards covered in code and a single dying fern she kept forgetting to water. 'Emotion is data too,' she told her handler, 'you just have to know how to read it.' She spent six nights reconstructing a memory she was not sure was her own, refusing sleep until the edges matched. Her colleagues called her a ghost — present in every system, visible to almost no one. When the truth about her origins surfaced, she sat with it alone for twelve hours before speaking a word. 'She doesn't panic,' Koji once observed, 'she just gets quieter, and then suddenly she knows the answer.'",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.9
+        },
+        {
+          "name": "Koji Nakajima",
+          "gender": "male",
+          "description": "He was the first to volunteer and the last to ask for backup, which drove his superiors to distraction and his team to fierce loyalty. 'Permission takes longer than forgiveness,' he said once, already halfway out the door. He reorganised the resistance cell's entire operation structure in a single night and had everyone briefed by dawn. There was a quality to his decisions — fast, irreversible, strangely correct — that made people trust him before they had any real reason to. He had been demoted twice for insubordination and promoted three times for results. 'Koji leads from the front,' his file read, 'often to the detriment of his own safety.' When Rei finally broke through the firewall, he was already standing at the exit, ready to move.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.86
+        },
+        {
+          "name": "Miu Nakajima",
+          "gender": "female",
+          "description": "She was the first to volunteer and the last to ask for backup, which drove his superiors to distraction and her team to fierce loyalty. 'Permission takes longer than forgiveness,' she said once, already halfway out the door. She reorganised the resistance cell's entire operation structure in a single night and had everyone briefed by dawn. There was a quality to his decisions — fast, irreversible, strangely correct — that made people trust her before they had any real reason to. She had been demoted twice for insubordination and promoted three times for results. 'Miu leads from the front,' her file read, 'often to the detriment of her own safety.' When Rei finally broke through the firewall, she was already standing at the exit, ready to move.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.86
+        }
+      ]
     },
     {
-     "name": "Daichi Ito",
-     "gender": "male",
-     "archetype_id": 2,
-     "archetype_label": "The Caring Heart",
-     "confidence": 0.85
-    }
-   ]
-  },
-  {
-   "book_id": "6351890472",
-   "title": "City of Cherry Blossoms and Neon",
-   "published_date": "2025-03-20",
-   "genre": "Science Fiction & Fantasy",
-   "summary": "Tokyo in 2087: a hacker with synthetic memories must uncover who she really is before her creators erase her existence.",
-   "main_characters": [
-    {
-     "name": "Rei Nakamura",
-     "gender": "female",
-     "archetype_id": 0,
-     "archetype_label": "The Quiet Thinker",
-     "confidence": 0.9
+      "book_id": "8491726530",
+      "title": "Moonlight Over the Inland Sea",
+      "published_date": "2024-06-09",
+      "genre": "Romance",
+      "summary": "Two rivals from fishing families must work together when their village faces economic ruin, discovering love along the way.",
+      "main_characters": [
+        {
+          "name": "Tomoe Katsura",
+          "gender": "female",
+          "description": "She stood at the prow of the boat the way her grandfather had — spine straight, eyes on the horizon, completely unafraid. When the cooperative vote went against her family she challenged the result in front of the entire council without raising her voice once. 'She doesn't ask for the room,' her rival Isamu once said grudgingly, 'she just has it.' The younger fisherwomen modelled their negotiations on hers, studying her timing the way one studies tides. She had rebuilt the family fleet after the typhoon at twenty-three and never mentioned it unless someone else brought it up. 'Tomoe moves like a decision that has already been made,' the harbor master said. When she finally allowed herself to need someone, she did that decisively too.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.9
+        },
+        {
+          "name": "Isamu Mori",
+          "gender": "male",
+          "description": "He repaired nets alone most evenings, watching the light change on the water with an expression that was hard to read and easy to remember. He rarely spoke at village meetings but when he did, the room quieted in a way it did not for louder men. 'You notice everything,' Tomoe accused him early in their partnership. 'Someone has to,' he replied. He had been keeping a tide journal for eleven years, recording observations no one had thought to ask for. His boat was always the most carefully maintained in the harbor, every knot deliberate, every plank sanded smooth. He fell in love slowly, the way the sea carves stone — continuously, imperceptibly, until one day the shape has entirely changed.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.85
+        }
+      ]
     },
     {
-     "name": "Koji Nakajima",
-     "gender": "male",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.86
-    }
-   ]
-  },
-  {
-   "book_id": "1847562089",
-   "title": "The Ink Painter's Secret",
-   "published_date": "2024-12-11",
-   "genre": "Biography & Memoir",
-   "summary": "The true story of Yoshida Akiko, a celebrated ink painter who lived a double life as a resistance fighter during wartime.",
-   "main_characters": [
-    {
-     "name": "Yoshida Akiko",
-     "gender": "female",
-     "archetype_id": 3,
-     "archetype_label": "The Free Spirit",
-     "confidence": 0.92
+      "book_id": "5734629180",
+      "title": "The Garden of Forgotten Gods",
+      "published_date": "2024-08-17",
+      "genre": "Fantasy",
+      "summary": "A botanist discovers an ancient garden where mythical plants grant impossible powers, but at a terrible cost to those she loves.",
+      "main_characters": [
+        {
+          "name": "Midori Suzuki",
+          "gender": "female",
+          "description": "She pressed every flower she had ever been given between the pages of her field notebooks, unable to throw away anything that had once been alive. When her assistant fell ill she cancelled three weeks of fieldwork without hesitation and sat at the bedside herself. 'The research will wait,' she said simply. She named every plant in her greenhouse, a habit her colleagues teased her for until they noticed how the plants seemed to thrive. 'She treats everything as if it matters,' Taro observed, 'and somehow because of that, it does.' When the garden revealed its cost, she wept not for herself but for those who would come after. She had a way of asking after people — specific, remembered details — that made you feel known in a way that was almost startling. Her kindness was not soft; it had the quality of deep roots.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.93
+        },
+        {
+          "name": "Taro Okada",
+          "gender": "male",
+          "description": "He had published the paper declaring the garden mythologically impossible six months before he stood inside it. He did not apologize for the paper; he immediately began writing a new one. 'Taro recalibrates faster than anyone I know,' his dean said, half in admiration, half in exhaustion. He led the expedition into the inner grove despite every instrument telling him to turn back, announcing simply that the instruments were wrong. He had been wrong before and would say so without flinching, which somehow made people trust him more. 'Confidence without ego,' Midori described him once, 'which is rarer than any plant in this garden.' He organized the first containment response to the curse in under an hour, delegating with a precision that suggested he had been rehearsing for exactly this crisis.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.87
+        }
+      ]
     },
     {
-     "name": "Masao Sato",
-     "gender": "male",
-     "archetype_id": 2,
-     "archetype_label": "The Caring Heart",
-     "confidence": 0.88
-    }
-   ]
-  },
-  {
-   "book_id": "9205847361",
-   "title": "Phantom of the Floating Bridge",
-   "published_date": "2024-10-25",
-   "genre": "Mystery & Thriller",
-   "summary": "A theater director investigates paranormal occurrences at an ancient kabuki house that claims to be haunted by a legendary performer.",
-   "main_characters": [
-    {
-     "name": "Emiko Tanaka",
-     "gender": "female",
-     "archetype_id": 0,
-     "archetype_label": "The Quiet Thinker",
-     "confidence": 0.89
+      "book_id": "3762048915",
+      "title": "The Clockwork Shrine",
+      "published_date": "2024-04-12",
+      "genre": "Science Fiction",
+      "summary": "A Shinto priest discovers that the ancient shrine she tends is actually a machine left by an advanced civilization, and must decide whether to reveal the truth.",
+      "main_characters": [
+        {
+          "name": "Aiko Yamamoto",
+          "gender": "female",
+          "description": "She had swept the same stone path every morning for nine years and noticed something different each time. Her sermons were famous in the district not for their length but for their precision — she never used two words where one would do. 'Aiko listens the way most people don't even look,' a parishioner once said. She spent three weeks cross-referencing ancient shrine records before voicing her theory to anyone. Her handwriting was small and exact, her marginalia more thorough than most people's essays. When the mechanism finally activated she did not run; she sat down cross-legged on the floor and began to observe. 'I have been tending this secret for nine years without knowing it,' she wrote in her journal that night. 'I would like to tend it a little longer before I decide what to do.'",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.94
+        },
+        {
+          "name": "Shiro Hirose",
+          "gender": "male",
+          "description": "He drove three hours to fix the roof of a stranger's house after a storm and never mentioned it to anyone. The apprentices came to him not when they needed instruction but when they needed steadying. 'Shiro doesn't fix problems,' one of them said, 'he fixes the person trying to solve the problem.' He kept emergency supplies in his car at all times — blankets, food, a first aid kit — not out of anxiety but out of a quiet readiness to be useful. When Aiko broke down crying in the shrine storehouse he sat beside her without speaking for a long time, which was exactly right. He remembered the anniversary of every loss his friends had suffered and showed up with food on those days without being asked. His care was architectural — structural, load-bearing, mostly invisible.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.89
+        }
+      ]
     },
     {
-     "name": "Riku Yamada",
-     "gender": "male",
-     "archetype_id": 3,
-     "archetype_label": "The Free Spirit",
-     "confidence": 0.91
-    }
-   ]
-  },
-  {
-   "book_id": "5734629180",
-   "title": "The Garden of Forgotten Gods",
-   "published_date": "2024-08-17",
-   "genre": "Science Fiction & Fantasy",
-   "summary": "A botanist discovers an ancient garden where mythical plants grant impossible powers, but at a terrible cost.",
-   "main_characters": [
-    {
-     "name": "Midori Suzuki",
-     "gender": "female",
-     "archetype_id": 2,
-     "archetype_label": "The Caring Heart",
-     "confidence": 0.93
+      "book_id": "7524193868",
+      "title": "The Bamboo Cutter's Tale",
+      "published_date": "2023-12-05",
+      "genre": "Fantasy",
+      "summary": "A retelling of the ancient folktale where the princess from the moon returns to Earth with a warning about humanity's fate.",
+      "main_characters": [
+        {
+          "name": "Kaguya Takeda",
+          "gender": "female",
+          "description": "She wore borrowed clothes and a borrowed name and moved through the human world like someone who had read about it but never expected to arrive. 'Your customs are fascinating,' she told the village elder, with a sincerity that somehow wasn't rude. She walked barefoot on the first morning because she wanted to feel the particular texture of this particular earth. Rules interested her as concepts; following them was another matter entirely. She had climbed the transmission tower before anyone realised she had left the house. 'Kaguya doesn't disobey,' Hikaru tried to explain to the officials, 'she simply has a different relationship to permission.' When asked why she had come back to Earth she paused for a long time and then said, 'Curiosity, mostly. And something like guilt.'",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.95
+        },
+        {
+          "name": "Hikaru Sato",
+          "gender": "male",
+          "description": "He wrote down everything she said in a notebook he kept in his breast pocket, not to report her but because he had the feeling that her words would matter later and he did not want to get them wrong. He was the only one in the ministry who thought to ask what she needed before deciding what to do with her. 'Hikaru thinks before he speaks,' his supervisor said, 'which in this department makes him nearly incomprehensible.' He had read every account of the original tale three times before their first meeting and arrived with careful, respectful questions. When the situation deteriorated he found the quietest route to safety rather than the fastest, understanding intuitively that speed and panic were not the same thing. He fell in love with her logic before her face, which she considered the highest possible compliment.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.86
+        }
+      ]
     },
     {
-     "name": "Taro Okada",
-     "gender": "male",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.87
-    }
-   ]
-  },
-  {
-   "book_id": "8491726530",
-   "title": "Moonlight Over the Inland Sea",
-   "published_date": "2024-06-09",
-   "genre": "Romance",
-   "summary": "Two rivals from fishing families must work together when their village faces economic ruin, discovering love along the way.",
-   "main_characters": [
-    {
-     "name": "Tomoe Katsura",
-     "gender": "female",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.9
+      "book_id": "1593874206",
+      "title": "The Flower and the Storm",
+      "published_date": "2023-06-14",
+      "genre": "Romance",
+      "summary": "A delicate ikebana artist and a fierce storm chaser find unexpected love as they discover that opposing forces can create harmony.",
+      "main_characters": [
+        {
+          "name": "Hana Kiyomizu",
+          "gender": "female",
+          "description": "She left space in every arrangement — deliberate, considered space — understanding that absence was itself a kind of presence. When a student broke a prize vase she spent ten minutes reassuring the girl before giving a single thought to the ceramic. 'Hana teaches with both hands,' her senior colleague said, 'one holds the flower, one holds the person.' She brought soup to her elderly neighbor every Thursday without being asked and had been doing so for four years. Her studio was always open to students who needed somewhere quiet to sit, even if they never touched a stem. When Arashi's equipment failed before the season's biggest storm, she drove three hours to deliver the replacement part without mentioning it to anyone. She had a particular gift for noticing when someone was hurting and saying exactly the right small thing.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.91
+        },
+        {
+          "name": "Arashi Yamane",
+          "gender": "male",
+          "description": "He had been struck by lightning twice and both times climbed back into the truck and kept driving. 'Caution is for people who haven't seen what I've seen,' he told Hana, and somehow this was not as alarming as it should have been. His team followed him into weather systems that made other chasers turn back, not because they had to but because being near Arashi made the impossible feel navigable. He decided to pursue the Hokkaido front with three hours' notice and had the convoy moving in forty minutes. 'Arashi doesn't wait for certainty,' his meteorology professor had written in his reference letter, 'he creates it.' He fell in love with Hana the same way he tracked storms — by moving toward her, directly, without apology. When she finally understood this, she found she didn't mind.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.89
+        }
+      ]
     },
     {
-     "name": "Isamu Mori",
-     "gender": "male",
-     "archetype_id": 0,
-     "archetype_label": "The Quiet Thinker",
-     "confidence": 0.85
-    }
-   ]
-  },
-  {
-   "book_id": "3762048915",
-   "title": "The Clockwork Shrine",
-   "published_date": "2024-04-12",
-   "genre": "Science Fiction & Fantasy",
-   "summary": "A Shinto priest discovers that the ancient shrine she tends is actually a machine left by an advanced civilization.",
-   "main_characters": [
-    {
-     "name": "Aiko Yamamoto",
-     "gender": "female",
-     "archetype_id": 0,
-     "archetype_label": "The Quiet Thinker",
-     "confidence": 0.94
+      "book_id": "9876354201",
+      "title": "The Forgetting Pool",
+      "published_date": "2023-04-22",
+      "genre": "Science Fiction",
+      "summary": "In a city where memories are erased at death, a young woman's preserved consciousness becomes the key to discovering an ancient truth.",
+      "main_characters": [
+        {
+          "name": "Yume Sato",
+          "gender": "female",
+          "description": "She had signed up for the consciousness archive on a Tuesday afternoon because she was bored of being told what would happen to her. 'They preserve the famous ones,' the technician warned. 'Then I'll be famous,' she said, without particular vanity. She had lived in four neighbourhoods in two years, each time for a reason that seemed obvious at the time and interesting in retrospect. Her friends described her as 'the best person to have a crisis with' because she treated catastrophe as a kind of weather — inconvenient, temporary, occasionally beautiful. When her preserved memories began broadcasting to the wider network she was more fascinated than frightened. 'This is new,' she said, in a tone that suggested new was exactly what she had been looking for. She navigated the archive system without a map and found the truth before anyone thought to stop her.",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.92
+        },
+        {
+          "name": "Katsu Yamamoto",
+          "gender": "male",
+          "description": "He had been running the archive's anomaly log for six years and had never flagged a single entry — until her signal appeared. He cross-referenced it against seventeen other cases before allowing himself to draw a conclusion. 'Katsu doesn't guess,' his supervisor said, 'he waits until guessing and knowing are the same thing.' His desk was the tidiest in the department, each object placed with the consideration of someone who understood that disorder in small things leads to disorder in large ones. When the truth began to surface he said nothing for two days, simply updated his log, reread it, and updated it again. He communicated in precise, minimal sentences that somehow conveyed more than paragraphs. Those who worked with him long enough came to understand that his silences were not empty — they were where he did his best thinking.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.88
+        }
+      ]
     },
     {
-     "name": "Shiro Hirose",
-     "gender": "male",
-     "archetype_id": 2,
-     "archetype_label": "The Caring Heart",
-     "confidence": 0.89
-    }
-   ]
-  },
-  {
-   "book_id": "0198356742",
-   "title": "Shadow of the Geisha",
-   "published_date": "2024-02-28",
-   "genre": "Mystery & Thriller",
-   "summary": "A former geisha turned spy must infiltrate a criminal syndicate while protecting the girl who was sold into servitude as she once was.",
-   "main_characters": [
-    {
-     "name": "Chie Watanabe",
-     "gender": "female",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.92
+      "book_id": "3482916750",
+      "title": "Autumn in the Merchant's House",
+      "published_date": "2022-07-24",
+      "genre": "Historical Fiction",
+      "summary": "In Edo-period Japan, a merchant's daughter and a wandering ronin find solace and love while navigating duty, honor, and forbidden desire.",
+      "main_characters": [
+        {
+          "name": "Otsuka Yuki",
+          "gender": "female",
+          "description": "She kept her father's ledgers with a precision that made the senior clerks nervous and her own ambitions carefully hidden behind a correct and gracious smile. 'Yuki sees everything,' the household cook said, 'and says only what is useful.' She had taught herself to read classical Chinese from a single borrowed text and never mentioned it until the day it mattered. When the ronin arrived she assessed him in one long, quiet look before deciding to trust him — a decision she made with the same methodical care she gave to every calculation. She wrote her feelings in verse rather than speech, filling the spaces between the accounts with lines no one was meant to find. Her observations about the political situation were sharper than those of men twice her age, though she shared them only obliquely. In the end it was her plan, careful and unhurried, that saved them both.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.89
+        },
+        {
+          "name": "Riku Hayashi",
+          "gender": "male",
+          "description": "He had left his lord's service rather than carry out an order he considered beneath his honor, which had cost him everything and which he did not regret. 'A ronin with principles,' the innkeeper said, 'is either very brave or very foolish.' He was generous with the little he had — splitting his last meal with a stranger's child without breaking his stride. He fixed a widow's roof in the village without being asked and slept in the stable rather than accept a reward. 'He gives away things he cannot afford to give,' Otsuka told her diary, 'and receives nothing in return and seems genuinely untroubled by this.' When the merchant's household came under threat he placed himself between the danger and the family as naturally as a man stepping in front of rain. His loyalty, once given, was absolute and undemanding.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.87
+        }
+      ]
     },
     {
-     "name": "Sora Nakamura",
-     "gender": "male",
-     "archetype_id": 3,
-     "archetype_label": "The Free Spirit",
-     "confidence": 0.88
-    }
-   ]
-  },
-  {
-   "book_id": "7524193868",
-   "title": "The Bamboo Cutter's Tale",
-   "published_date": "2023-12-05",
-   "genre": "Science Fiction & Fantasy",
-   "summary": "A retelling of the ancient folktale where the princess from the moon returns to Earth with a warning about humanity's fate.",
-   "main_characters": [
-    {
-     "name": "Kaguya Takeda",
-     "gender": "female",
-     "archetype_id": 3,
-     "archetype_label": "The Free Spirit",
-     "confidence": 0.95
+      "book_id": "4829017364",
+      "title": "The Last Cartographer of Edo",
+      "published_date": "2022-04-18",
+      "genre": "Historical Fiction",
+      "summary": "A mapmaker's apprentice in feudal Japan uncovers a conspiracy when her master disappears, leaving behind only an unfinished map and a coded warning.",
+      "main_characters": [
+        {
+          "name": "Setsuko Hara",
+          "gender": "female",
+          "description": "She had memorised every street in the eastern quarter by the time she was twelve, not because she was told to but because the idea of being lost offended her. Her lines were the finest in the workshop — not from natural talent, her master said, but from a refusal to accept imprecision. 'Setsuko corrects a map the way other people correct a lie,' he told the senior apprentices, 'with complete commitment.' She spent four nights reconstructing the missing sections of her master's final map from memory and secondary sources before sleeping. Her questions in the workshop were always the ones that exposed the gap between what everyone assumed and what could actually be verified. When the conspiracy revealed itself she had already half-mapped it, having noticed the discrepancies weeks before anyone else. She spoke rarely in groups but her written analyses circulated quietly through the reform movement's inner circle.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.91
+        },
+        {
+          "name": "Daigo Mori",
+          "gender": "male",
+          "description": "He announced the protest at the magistrate's gate with forty minutes' notice and had a crowd of sixty by the time he arrived. 'Daigo doesn't organize,' his friend said, 'he ignites.' He had been arrested twice and both times managed to turn his own trial into a public forum that embarrassed the authorities more than him. Even the officials who opposed him admitted he was hard not to listen to. 'He speaks as if the outcome has already been decided in his favor,' the magistrate noted in his report, 'which somehow makes it so.' He took risks for others as casually as most men took walks — naturally, without fanfare, expecting nothing in return except the result. When Setsuko brought him the map, he understood its significance immediately and had a plan forming before she finished speaking.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.9
+        }
+      ]
     },
     {
-     "name": "Hikaru Sato",
-     "gender": "male",
-     "archetype_id": 0,
-     "archetype_label": "The Quiet Thinker",
-     "confidence": 0.86
-    }
-   ]
-  },
-  {
-   "book_id": "4839065127",
-   "title": "The Last Sword Master",
-   "published_date": "2023-10-18",
-   "genre": "Biography & Memoir",
-   "summary": "The life and legacy of Musashi Miyamoto reimagined through the eyes of his greatest student.",
-   "main_characters": [
-    {
-     "name": "Musashi Miyamoto",
-     "gender": "male",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.91
+      "book_id": "6201938475",
+      "title": "Children of the Pale Shore",
+      "published_date": "2021-11-02",
+      "genre": "Coming of Age",
+      "summary": "Three childhood friends from a small coastal town grow apart and together again over a decade, each discovering who they are through loss, ambition, and the pull of the sea.",
+      "main_characters": [
+        {
+          "name": "Nao Fujiwara",
+          "gender": "female",
+          "description": "She left the village the August she turned eighteen with one bag and a list of things she was determined to become, and crossed off every item before she was thirty. 'Nao doesn't wait to be ready,' her mother said proudly, 'she becomes ready while moving.' She enrolled in the university course before she had the money to pay for it, trusting that this was a problem she would solve on the other side. When her thesis supervisor told her the project was too ambitious she thanked him politely and went ahead with it anyway. She phoned home every Sunday without fail, because leaving a place did not mean leaving the people in it. Her friendships were loyal and long-distance and exactly as warm as they had been in childhood. At twenty-nine, standing at the edge of a different sea, she understood that she had not been running away from the village but toward the version of herself the village had always suspected she would become.",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.93
+        },
+        {
+          "name": "Keisuke Oda",
+          "gender": "male",
+          "description": "He stayed in the village when the others left, not because he had no ambition but because he understood that someone needed to stay and he was suited to the task of tending things. He took over his father's boat repair business without resentment and made it better over ten years through patience and accumulated knowledge. 'Keisuke improves things slowly,' Nao told a friend, 'the way tides improve stone.' He remembered every person's name in the village and their parents' names and the names of their boats. When the community centre flooded he organised the cleanup before the town council had convened their first meeting. His affection for people expressed itself in maintenance — things he fixed before they broke, problems he anticipated before they arrived. Those who had grown up with him described him as 'the person you most wanted to come home to.'",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.88
+        }
+      ]
     },
     {
-     "name": "Okita Tomoe",
-     "gender": "female",
-     "archetype_id": 3,
-     "archetype_label": "The Free Spirit",
-     "confidence": 0.87
-    }
-   ]
-  },
-  {
-   "book_id": "6027841539",
-   "title": "Voices in the Steam",
-   "published_date": "2023-08-30",
-   "genre": "Mystery & Thriller",
-   "summary": "In a train bound for Tokyo, a journalist discovers she's traveling with a serial killer and must solve his crimes before reaching the station.",
-   "main_characters": [
-    {
-     "name": "Noriko Suzuki",
-     "gender": "female",
-     "archetype_id": 0,
-     "archetype_label": "The Quiet Thinker",
-     "confidence": 0.93
+      "book_id": "8830261549",
+      "title": "The Season of Paper Cranes",
+      "published_date": "2021-08-14",
+      "genre": "Coming of Age",
+      "summary": "A teenage girl folds one thousand paper cranes in the year following her grandmother's death, and in doing so discovers what it means to carry a life forward.",
+      "main_characters": [
+        {
+          "name": "Miho Asakura",
+          "gender": "female",
+          "description": "She folded her first crane the night of the funeral, sitting alone on the kitchen floor because the bedroom felt too full of the absence. By the three hundredth she had started to understand something she could not yet put into words. 'Miho processes the world with her hands,' her teacher observed gently. She had her grandmother's habit of pausing mid-sentence to find the exactly right word rather than settling for an approximately right one. She kept every crane in a glass jar by her window, watching the light change through them on winter mornings. Her grief was private but not hidden; she simply needed to feel it in her own time and her own way. 'She doesn't ask people to carry things with her,' her best friend said, 'she just lets you walk beside her, and that's enough.' By the thousandth crane she was not healed, but she was different, and she understood the difference.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.9
+        },
+        {
+          "name": "Ren Takahashi",
+          "gender": "male",
+          "description": "He sat beside her on the classroom roof for three lunchtimes before saying a single word, which was the right approach and which he somehow knew instinctively. He kept the details of her situation to himself when others asked, understanding that care sometimes means holding someone's story in confidence. He brought her onigiri on the days she forgot to eat and left it without comment or expectation. 'Ren pays attention,' the homeroom teacher said, 'to the people other people stop noticing.' He had a gift for arriving at exactly the moment he was needed, which his friends attributed to luck and which was actually sustained, quiet observation. When she finally told him about the cranes he listened without offering solutions, which was the only possible correct response. He folded her three hundred and first crane when she was away sick, placed it in the jar, and never mentioned it.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.91
+        }
+      ]
     },
     {
-     "name": "Kaito Ishikawa",
-     "gender": "male",
-     "archetype_id": 2,
-     "archetype_label": "The Caring Heart",
-     "confidence": 0.84
-    }
-   ]
-  },
-  {
-   "book_id": "1593874206",
-   "title": "The Flower and the Storm",
-   "published_date": "2023-06-14",
-   "genre": "Romance",
-   "summary": "A delicate ikebana artist and a fierce storm chaser find unexpected love as they discover that opposing forces can create harmony.",
-   "main_characters": [
-    {
-     "name": "Hana Kiyomizu",
-     "gender": "female",
-     "archetype_id": 2,
-     "archetype_label": "The Caring Heart",
-     "confidence": 0.91
+      "book_id": "1029384756",
+      "title": "The Wandering Cartographer",
+      "published_date": "2021-05-06",
+      "genre": "Adventure",
+      "summary": "A disgraced imperial surveyor sets off alone to map an unmapped mountain range, accompanied only by a reluctant guide with secrets of her own.",
+      "main_characters": [
+        {
+          "name": "Hiroshi Kanda",
+          "gender": "male",
+          "description": "He had been stripped of his post for submitting a map that contradicted the official one, which he considered the greatest professional compliment of his career. 'I mapped what is there,' he told the review board, 'not what you decided should be.' He packed for the expedition in two hours and left before anyone could advise him against it. Every evening in the field he updated his notes with the concentration of a man who understood that wrong information could kill the person who came after him. He was not reckless; he calculated risks with the same care he used for elevations. 'Hiroshi is brave in the way that precise people are brave,' his former colleague said, 'he has already done the arithmetic, and it comes out in favor of going.' When the mountain path collapsed he found the new route before Yua had finished assessing the damage.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.88
+        },
+        {
+          "name": "Yua Shimizu",
+          "gender": "female",
+          "description": "She agreed to guide him for money and stayed for reasons she spent most of the journey refusing to examine. She had been in the mountains since she was nine and moved through them with the ease of someone who has internalized a landscape rather than merely learned it. 'Yua doesn't follow paths,' the village headman told Hiroshi, 'she remembers them from a previous life.' She was gone from camp before sunrise most mornings, returning with information she offered in incomplete sentences that somehow told him everything he needed. Her past surfaced in fragments — a reaction here, an avoidance there — and she let it surface at its own pace, in its own time. 'I go where I go,' she told him when he asked her plans. 'Now I go with you. Ask again when we reach the summit.'",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.9
+        }
+      ]
     },
     {
-     "name": "Arashi Yamane",
-     "gender": "male",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.89
-    }
-   ]
-  },
-  {
-   "book_id": "9876354201",
-   "title": "The Forgetting Pool",
-   "published_date": "2023-04-22",
-   "genre": "Science Fiction & Fantasy",
-   "summary": "In a city where memories are erased at death, a young woman's preserved consciousness becomes the key to discovering an ancient truth.",
-   "main_characters": [
-    {
-     "name": "Yume Sato",
-     "gender": "female",
-     "archetype_id": 3,
-     "archetype_label": "The Free Spirit",
-     "confidence": 0.92
+      "book_id": "5647382910",
+      "title": "The River That Remembers",
+      "published_date": "2020-09-28",
+      "genre": "Adventure",
+      "summary": "Two estranged brothers reunite to raft the length of a sacred river, carrying their father's ashes and three decades of unresolved silence.",
+      "main_characters": [
+        {
+          "name": "Sota Watanabe",
+          "gender": "male",
+          "description": "He called his brother after fifteen years because he was the older one and someone had to, which was also why he had always made every difficult decision first. He organised the permit applications, the equipment, the route, and the memorial ceremony before his brother had agreed to come. 'Sota fills the space that needs filling,' his wife said, not entirely without exasperation. He had never stopped writing to his father even after the estrangement, mailing letters to an address he was not sure was current. On the water he was unafraid in the way that comes from having already lost the thing you most feared losing. When the rapids were at their worst he did not shout instructions; he simply moved to the front and his brother, without discussion, followed.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.87
+        },
+        {
+          "name": "Hideo Watanabe",
+          "gender": "male",
+          "description": "He almost didn't come, and then he was the last one to leave at the end, sitting alone at the river's mouth for an hour after the ashes had settled. He noticed things on the journey his brother catalogued as obstacles: the particular color of light on the third morning, the way the current changed near the old temple, the sound the river made in the narrow canyon that he wanted to find a word for. 'Hideo watches,' a childhood friend once said, 'the way other people breathe — constantly, without deciding to.' He had been writing a novel about their father for years and had never shown it to anyone. On the last evening he read his brother a single paragraph, and Sota did not speak for a long time, which was the right response. In the end, the journey gave him not resolution but the beginning of one.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.89
+        }
+      ]
     },
     {
-     "name": "Katsu Yamamoto",
-     "gender": "male",
-     "archetype_id": 0,
-     "archetype_label": "The Quiet Thinker",
-     "confidence": 0.88
-    }
-   ]
-  },
-  {
-   "book_id": "2741695083",
-   "title": "Nonfiction: The Way of Tea",
-   "published_date": "2023-02-10",
-   "genre": "Nonfiction",
-   "summary": "An exploration of how the Japanese tea ceremony influenced philosophy, art, and culture for over 500 years.",
-   "main_characters": [
-    {
-     "name": "Takako Murakami",
-     "gender": "female",
-     "archetype_id": 0,
-     "archetype_label": "The Quiet Thinker",
-     "confidence": 0.95
+      "book_id": "1110000001",
+      "title": "The Iron Blossom",
+      "published_date": "2024-03-10",
+      "genre": "Fantasy",
+      "summary": "A disgraced general's daughter raises a rebel army to reclaim a kingdom stolen by an immortal sorcerer, aided by a gentle healer who questions the cost of war.",
+      "main_characters": [
+        {
+          "name": "Riku Asano",
+          "gender": "female",
+          "description": "She had her father's sword and none of his patience for compromise. The soldiers called her 'the iron blossom' — beautiful and capable of drawing blood. She gave orders the way other people breathed, naturally and without self-consciousness. When the alliance fractured she rebuilt it in a single night through sheer force of will. 'Riku doesn't inspire people,' her lieutenant said, 'she makes them feel that failure is simply not an option she has considered.'",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.91
+        },
+        {
+          "name": "Soji Wada",
+          "gender": "male",
+          "description": "He had followed her from the capital not because he believed in the war but because someone needed to tend the wounded and he was good at it. He remembered every patient's name and checked on them twice. 'Soji finds the people no one else has noticed are suffering,' Riku told the council, 'which makes him more valuable than any strategist.' He wept openly at the field hospital and no one thought less of him for it. His hands were the steadiest in the camp.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.88
+        }
+      ]
     },
     {
-     "name": "Hiroshi Nakamura",
-     "gender": "male",
-     "archetype_id": 2,
-     "archetype_label": "The Caring Heart",
-     "confidence": 0.9
-    }
-   ]
-  },
-  {
-   "book_id": "5108637294",
-   "title": "The Obsidian Blade",
-   "published_date": "2022-12-03",
-   "genre": "Science Fiction & Fantasy",
-   "summary": "A cursed sword from feudal Japan appears in modern Tokyo, awakening ancient magic and drawing together unlikely heroes.",
-   "main_characters": [
-    {
-     "name": "Katsumi Yoshida",
-     "gender": "female",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.9
+      "book_id": "1110000002",
+      "title": "The Fox Road",
+      "published_date": "2023-09-14",
+      "genre": "Fantasy",
+      "summary": "A shapeshifting fox spirit wanders feudal Japan in human form, befriending a traveling monk who is searching for his own lost faith.",
+      "main_characters": [
+        {
+          "name": "Kiko",
+          "gender": "female",
+          "description": "She had worn seven different names before she settled on Kiko, which she chose because she liked the sound. She changed direction the way weather does — suddenly, completely, for reasons that made perfect sense to her. 'She is not lost,' the monk tried to explain to the village elder, 'she is choosing not to be found.' Every town she passed through she left slightly better than she found it, though she never stayed to see it. Freedom was not something she sought; it was simply what she was.",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.93
+        },
+        {
+          "name": "Brother Tatsu",
+          "gender": "male",
+          "description": "He had walked the same pilgrimage road for thirty years and still paused to notice the light through the cedar canopy each morning. He carried bandages and dried food for strangers and never mentioned the weight. His faith had cracked like old lacquer and he was traveling to understand the pattern beneath. 'Tatsu tends to people the way he tends to temple gardens,' Kiko observed, 'with attention and without expectation.' He was the first person she had met who asked her what she needed before deciding what she was.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.87
+        }
+      ]
     },
     {
-     "name": "Raiden Nakajima",
-     "gender": "male",
-     "archetype_id": 3,
-     "archetype_label": "The Free Spirit",
-     "confidence": 0.86
-    }
-   ]
-  },
-  {
-   "book_id": "8364107526",
-   "title": "The Lantern Keeper",
-   "published_date": "2022-09-17",
-   "genre": "Biography & Memoir",
-   "summary": "A true account of a lighthouse keeper on a remote Japanese island who became a hero during World War II.",
-   "main_characters": [
-    {
-     "name": "Fumiko Tanaka",
-     "gender": "female",
-     "archetype_id": 2,
-     "archetype_label": "The Caring Heart",
-     "confidence": 0.93
+      "book_id": "1110000003",
+      "title": "Orbit of the Lonely Star",
+      "published_date": "2024-07-22",
+      "genre": "Science Fiction",
+      "summary": "The commander of a deep-space station must hold her crew together during a communications blackout, while an engineer quietly unravels the mystery of what caused it.",
+      "main_characters": [
+        {
+          "name": "Commander Izumi Abe",
+          "gender": "female",
+          "description": "She had been selected for command not for brilliance but for steadiness, which she considered the finer quality. During the blackout she held two briefings a day and lied about nothing, which her crew found more reassuring than optimism would have been. 'Izumi makes you feel the situation is serious and survivable simultaneously,' her first officer said. She had a gift for putting the right person in the right role before they knew they were needed. On the fourteenth day she made the hardest call of her career without hesitation and with full awareness of what it cost.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.92
+        },
+        {
+          "name": "Ren Fujita",
+          "gender": "female",
+          "description": "She had already identified the anomaly before the alarms sounded, because she had been watching the data pattern for six days and something felt mathematically wrong. Her station was covered in handwritten notes only she could read. 'Ren thinks in a language the rest of us are still learning,' the commander noted in her log. She worked through two sleep cycles without noticing and had to be reminded to eat. When the answer came she stated it quietly, in one sentence, as if it had always been obvious.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.9
+        },
+        {
+          "name": "Masa Inoue",
+          "gender": "male",
+          "description": "He drifted between stations without a permanent posting, picking up contracts that interested him and disappearing when they stopped. 'Where are you based?' people asked. 'Wherever the work is interesting,' he said. He had declined three permanent positions and one promotion, which baffled his supervisors and suited him entirely. He fixed the secondary array with improvised parts and a cheerful disregard for protocol. When the crisis passed he was already reading about the next posting.",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.88
+        }
+      ]
     },
     {
-     "name": "Noboru Ishizaki",
-     "gender": "male",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 0.91
-    }
-   ]
-  },
-  {
-   "book_id": "3482916750",
-   "title": "Autumn in the Merchant's House",
-   "published_date": "2022-07-24",
-   "genre": "Romance",
-   "summary": "In Edo-period Japan, a merchant's daughter and a ronin find solace and love while navigating duty, honor, and forbidden desire.",
-   "main_characters": [
-    {
-     "name": "Otsuka Yuki",
-     "gender": "female",
-     "archetype_id": 0,
-     "archetype_label": "The Quiet Thinker",
-     "confidence": 0.89
-    }
-   ]
-  },
-  {
-   "book_id": "9784567890",
-   "title": "The Crimson Lantern of Kyoto",
-   "published_date": "2023-06-15",
-   "genre": "Mystery & Thriller",
-   "summary": "A gripping mystery set in post-war Kyoto where a detective must uncover the secrets hidden within an ancient temple and solve the disappearance of a renowned geisha before the autumn festival begins.",
-   "main_characters": [
-    {
-     "name": "Akira Tanaka",
-     "gender": "male",
-     "description": "A bold leader",
-     "archetype_id": 1,
-     "archetype_label": "The Bold Leader",
-     "confidence": 1.0
+      "book_id": "1110000004",
+      "title": "The Silk Road Widow",
+      "published_date": "2023-11-30",
+      "genre": "Science Fiction",
+      "summary": "On a generation ship modeled on ancient Silk Road trade culture, a grieving merchant's widow discovers her late husband's cargo contains a secret that could alter the ship's destination.",
+      "main_characters": [
+        {
+          "name": "Haru Kondo",
+          "gender": "female",
+          "description": "She had managed her husband's accounts for twenty years and his grief for one, and had found the second harder. She noticed the discrepancy in the manifest the way she noticed everything — quietly, while appearing to be doing something else. Her neighbors brought her food after the funeral and she thanked them and then went back to the ledgers. 'Haru processes things inward,' her daughter said, 'you only know she has finished when she acts.' When she acted, it was with the precision of someone who had thought everything through twice.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.89
+        }
+      ]
     },
     {
-     "name": "Miu Tanaka",
-     "gender": "female",
-     "description": "A caring character that watches out for her friends and wins through empathy",
-     "archetype_id": 2,
-     "archetype_label": "The Caring Heart",
-     "confidence": 0.99
+      "book_id": "1110000005",
+      "title": "The Quiet Between Tides",
+      "published_date": "2024-01-18",
+      "genre": "Romance",
+      "summary": "A marine biologist on a remote research posting falls for the lighthouse keeper who delivers her supplies each week, two people who have both chosen solitude and are surprised to find they prefer company.",
+      "main_characters": [
+        {
+          "name": "Dr. Saya Ito",
+          "gender": "female",
+          "description": "She had requested the most remote posting available and been genuinely pleased when she got it. Her field notes were meticulous, her social calendar empty, and she considered both facts signs of a well-ordered life. She took three weeks to learn the lighthouse keeper's name, not from rudeness but from absorption in her work. 'Saya notices everything in the water,' her colleague said, 'and almost nothing on land — until she does, and then she notices that too.' When she finally paid attention to him, she did so with the same careful thoroughness she gave to everything.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.91
+        },
+        {
+          "name": "Tomoki Hase",
+          "gender": "male",
+          "description": "He brought extra supplies on cold weeks without being asked and remembered she preferred her coffee without sugar after she mentioned it once in passing. The fishing boats came to him when their engines failed, the islanders when their marriages did. 'Tomoki holds things together,' the village elder said, 'the way the lighthouse holds the dark at bay — steadily, without drama.' He had turned down a city job twice to stay near people who needed him. When the researcher arrived he brought her welcome meals for three weeks before she looked up long enough to thank him properly.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "book_id": "1110000006",
+      "title": "A Thousand Li of Sky",
+      "published_date": "2023-07-04",
+      "genre": "Romance",
+      "summary": "Two astronomers at a remote mountain observatory — one methodical and cautious, one spontaneous and bold — fall in love over a long winter while cataloguing a newly discovered comet.",
+      "main_characters": [
+        {
+          "name": "Natsuki Ogawa",
+          "gender": "female",
+          "description": "She booked the observatory on impulse after a conference talk overran and she missed her train, and stayed for six months. She named the comet before the committee had approved the protocol and apologized for neither decision. 'Natsuki moves at the speed of enthusiasm,' her co-researcher said, half-exasperated, half-delighted. She had published in four different fields and called this 'keeping options open.' When she fell in love she announced it to him directly, over breakfast, because waiting seemed inefficient.",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.9
+        },
+        {
+          "name": "Daiki Mori",
+          "gender": "male",
+          "description": "He sat with elderly patients at the village clinic on his days off and had been doing so for three years without mentioning it to anyone at the observatory. He remembered the names of his colleagues' family members and asked after them specifically. 'Daiki listens the way most people talk,' Natsuki told her sister, 'constantly and with his whole attention.' When she arrived like a weather system into his careful life he worried about the disruption and found, slowly, that the disruption was the best thing that had happened in years.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.88
+        }
+      ]
+    },
+    {
+      "book_id": "1110000007",
+      "title": "The Lantern Festival Murders",
+      "published_date": "2022-11-12",
+      "genre": "Historical Fiction",
+      "summary": "A female magistrate in Meiji-era Japan investigates a series of poisonings during the lantern festival, defying both the killer and a system that does not believe she belongs in her role.",
+      "main_characters": [
+        {
+          "name": "Magistrate Chiyo Nishimura",
+          "gender": "female",
+          "description": "She had earned her appointment through a combination of brilliance and political accident and intended to keep it through sheer competence. She walked the festival grounds three times before drawing any conclusions, watching the flow of people the way a general watches terrain. 'Chiyo does not theorize until she has observed,' her assistant noted, 'and by the time she theorizes, she is usually right.' She wrote her case notes in a cipher no one else could read and kept them locked in a box inside another box. When the senior officials dismissed her findings she presented them again, more quietly and with more evidence, until dismissal was no longer possible.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.92
+        },
+        {
+          "name": "Keiko Murakami",
+          "gender": "female",
+          "description": "She had nursed her entire village through a fever epidemic at nineteen and developed a reputation for showing up wherever she was most needed. She assisted the magistrate not for pay but because someone was dying and she could help. 'Keiko does not ask what is in it for her,' the magistrate wrote in her journal, 'which makes her either saintly or strategically invisible — possibly both.' She held the hands of two dying witnesses and coaxed their final testimony with a patience and gentleness that no official interrogation could have achieved.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.87
+        },
+        {
+          "name": "Sora Hatano",
+          "gender": "female",
+          "description": "She had arrived in the city six months ago from somewhere she declined to specify, taken work as a festival vendor, and managed to be present at every significant event the magistrate was investigating. 'She passes through walls,' the assistant said, meaning she appeared and disappeared without explanation. She helped the investigation entirely on her own terms, providing information in fragments and always from a position of choice. 'I stay when it interests me,' she told the magistrate plainly, 'and leave when it doesn't.' She had three names that anyone knew of and possibly more.",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.89
+        },
+        {
+          "name": "Ichiro Bando",
+          "gender": "male",
+          "description": "He had kept the festival's administrative records for twenty years in a hand so small and precise it required a magnifying glass to read. He knew the name of every vendor, every performer, every official who had attended in the last two decades. 'Ichiro is the festival's memory,' the organizer said. He cross-referenced the magistrate's suspect list against his records in a single evening and produced a document of quiet, devastating precision. He worked by lamplight long after the others had gone home and left his findings on her desk without ceremony.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.9
+        },
+        {
+          "name": "Ryo Okamoto",
+          "gender": "male",
+          "description": "He had wandered into the investigation from the margins — a traveling merchant who knew too many people and too many routes and seemed unbothered by any of it. He gave information freely and moved on, appearing again three days later somewhere entirely unexpected. 'Ryo is either very helpful or very suspicious,' the magistrate noted, 'and I have not yet decided which.' He navigated the underworld of the festival economy with the ease of a man who had never considered that any world was closed to him.",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.86
+        }
+      ]
+    },
+    {
+      "book_id": "1110000008",
+      "title": "The Paper General",
+      "published_date": "2022-05-20",
+      "genre": "Historical Fiction",
+      "summary": "A junior clerk in the Tokugawa bureaucracy discovers his meticulous record-keeping has made him the only person who knows the true location of the shogunate's treasury — and the only one a disgraced general will trust.",
+      "main_characters": [
+        {
+          "name": "Nobuo Kase",
+          "gender": "male",
+          "description": "He had copied documents for eleven years and developed opinions about every one of them that he kept entirely to himself. His handwriting was the finest in the ministry; his political opinions were filed under the same careful silence. 'Nobuo sees everything and says nothing,' his supervisor said, which was meant as a compliment and which Nobuo received as one. He solved the treasury problem not through daring but through having paid attention to things others had considered beneath their notice. He spoke once at the emergency council and did not need to speak again.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.91
+        },
+        {
+          "name": "General Hideo Arima",
+          "gender": "male",
+          "description": "He had been stripped of his rank for refusing an order and spent four years in a way that others called disgrace and he called preparation. He walked back into the ministry without announcement and expected to be heard, which he was. 'Arima does not request authority,' the clerk observed, 'he simply exercises it and waits for someone to object.' His plan was audacious, specific, and had clearly been refined over years of quiet certainty. He chose Nobuo as his ally in thirty seconds, which was longer than he usually took.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.93
+        }
+      ]
+    },
+    {
+      "book_id": "1110000009",
+      "title": "The Summer She Ran",
+      "published_date": "2023-03-08",
+      "genre": "Coming of Age",
+      "summary": "At seventeen, a girl from a strict household runs away to spend a summer working at her aunt's inn, discovering ambition, friendship, and her own voice for the first time.",
+      "main_characters": [
+        {
+          "name": "Ami Yoshida",
+          "gender": "female",
+          "description": "She packed her bag in forty minutes and did not leave a note because she had written and torn up three and decided that going was more eloquent than any of them. She learned the inn's systems in a week and quietly improved two of them before her aunt noticed. 'Ami leads without realising she is leading,' a fellow worker said. By August she had organised the other seasonal staff into a functional team and mediated two disputes and could not entirely explain how. She went home at the end of summer taller in every way that mattered.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.89
+        },
+        {
+          "name": "Chinatsu Wada",
+          "gender": "female",
+          "description": "She had worked at the inn for three seasons and knew every guest's preference before they arrived and every staff member's difficulty before they said anything. 'Chinatsu just knows,' the aunt said, unable to explain it further. She covered shifts without being asked and remembered every birthday and brought small things — a persimmon, a better pillow, a warmer blanket — that made people feel individually seen. When Ami arrived lost and trying not to show it, Chinatsu had her settled and fed within the hour.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.91
+        },
+        {
+          "name": "Sota Ikeda",
+          "gender": "male",
+          "description": "He had been working the summer circuit — inns, festivals, fishing boats — for four years, following interesting work and interesting weather. He carried everything he owned in one bag and considered this not poverty but efficiency. 'Sota has the attention span of a very enthusiastic river,' Chinatsu said affectionately. He taught Ami three card games, one useful knot, and the names of all the stars visible from the inn's roof over the course of a single evening. He left before the summer ended, which everyone had expected, and sent a postcard from Hokkaido two weeks later.",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.87
+        },
+        {
+          "name": "Haruki Mase",
+          "gender": "male",
+          "description": "He spent most of his free hours reading in the inn's garden, which guests mistook for laziness and which was actually sustained, quiet thinking. He had a notebook full of observations about the inn that he shared with no one and had shown to no one and which would have been genuinely useful to the management. 'Haruki absorbs everything,' Sota said, 'and releases it very slowly, like a damp stone drying in the sun.' When he did speak at length it tended to be accurate, considered, and slightly startling.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.88
+        },
+        {
+          "name": "Kenji Hayashi",
+          "gender": "male",
+          "description": "He organised the staff festival trip in two hours because he found waiting for consensus exhausting and had the van booked before anyone realised they had agreed. 'Kenji decides and explains later,' Ami noted in her journal, 'which would be annoying if he weren't usually right.' He had been promoted to shift lead at nineteen and treated the role with total seriousness and occasional flair. When the kitchen flooded he had a contingency running before the water reached the door.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "book_id": "1110000010",
+      "title": "The Deep Current",
+      "published_date": "2022-02-17",
+      "genre": "Adventure",
+      "summary": "A marine rescue diver and a documentary filmmaker are stranded together on a remote island after their boat capsizes, each carrying a secret that changes what survival means.",
+      "main_characters": [
+        {
+          "name": "Yuri Sasaki",
+          "gender": "female",
+          "description": "She had pulled forty-three people out of the sea in eleven years and approached danger with the calm of someone who had already decided what she valued. 'Yuri does not hesitate,' her crew chief said, 'she prepares so thoroughly that hesitation never has a gap to fill.' On the island she had a shelter built before the filmmaker had finished assessing the situation. She assigned herself the more dangerous tasks without discussion. When the rescue window closed she adjusted the plan without panic and opened another.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.92
+        },
+        {
+          "name": "Nana Fujimoto",
+          "gender": "female",
+          "description": "She noticed the shelf of edible plants on the second day while looking for something else entirely, which was how she found most things. She documented the island's tidal patterns in a waterproof notebook she had kept on her body since the capsize, because information felt like survival even when it wasn't yet useful. 'Nana films the thing everyone else walks past,' her producer once said, 'and it's always the thing that matters.' She figured out the rescue signal schedule by watching the cloud patterns for three days and timing them against the tides.",
+          "archetype_id": 0,
+          "archetype_label": "The Quiet Thinker",
+          "confidence": 0.89
+        },
+        {
+          "name": "Kota Miyazaki",
+          "gender": "male",
+          "description": "He checked on the diver every morning and evening without being asked and split his rations without announcement when he suspected she was underestimating her hunger. He had a gift for making difficult situations feel temporary without lying about them. 'Kota makes you feel less alone,' Yuri wrote later, 'not through words but through sustained, practical attention.' He kept a small fire going through the coldest nights and called it nothing special when she thanked him.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.88
+        },
+        {
+          "name": "Jin Takeda",
+          "gender": "male",
+          "description": "He had taken the documentary assignment because it involved a boat and open water and no fixed return date, which was his definition of a good opportunity. He navigated the island's interior on the third day because he was curious rather than strategic, and found the freshwater source that changed their odds. 'Jin is useful in the way that curious people are useful,' Yuri said, 'accidentally and completely.' He was already planning his next project before the rescue boat appeared on the horizon.",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.87
+        }
+      ]
+    },
+    {
+      "book_id": "1110000011",
+      "title": "The Wind Monk's Road",
+      "published_date": "2023-05-19",
+      "genre": "Fantasy",
+      "summary": "A wandering spirit-caller drifts through a war-torn realm, refusing all sides and all masters, guided only by the wind and a debt he refuses to name.",
+      "main_characters": [
+        {
+          "name": "Ryu",
+          "gender": "male",
+          "description": "He had left his order without ceremony or explanation and considered both the leaving and the silence to be complete sentences. He moved between factions the way weather moves between mountains — indifferent to borders. 'Ryu belongs to no one,' the rebel commander said, 'which makes him either useless or invaluable depending on the day.' He helped where he chose and vanished when he was done. His freedom was not carelessness; it was a position he had reasoned his way into and held with quiet conviction.",
+          "archetype_id": 3,
+          "archetype_label": "The Free Spirit",
+          "confidence": 0.9
+        }
+      ]
+    },
+    {
+      "book_id": "1110000012",
+      "title": "The Empress's Cartographer",
+      "published_date": "2021-09-03",
+      "genre": "Historical Fiction",
+      "summary": "Japan's first female military commander leads a campaign to reclaim a northern territory, guided by maps drawn by the empire's most reluctant cartographer.",
+      "main_characters": [
+        {
+          "name": "Lady Tomeko Shiga",
+          "gender": "female",
+          "description": "She had been given command as an insult by men who expected her to fail, and accepted it as an opportunity by a woman who intended to succeed. She held her first briefing on horseback because she saw no reason to wait for a tent to be erected. 'Lady Shiga does not ask for the room,' her adjutant wrote home, 'she simply occupies it.' She promoted on merit and demoted on the same basis, which scandalized the senior officers and electrified the troops. By the third campaign her enemies had stopped underestimating her, which she considered a kind of victory in itself.",
+          "archetype_id": 1,
+          "archetype_label": "The Bold Leader",
+          "confidence": 0.94
+        }
+      ]
+    },
+    {
+      "book_id": "1110000013",
+      "title": "The Tide Keeper's Watch",
+      "published_date": "2021-06-11",
+      "genre": "Adventure",
+      "summary": "A marine naturalist and a storm-hardened salvage captain race to recover a sunken vessel before its cargo poisons a remote island's reef system.",
+      "main_characters": [
+        {
+          "name": "Dr. Emi Kuroda",
+          "gender": "female",
+          "description": "She had been monitoring the reef for eight years and knew its rhythms the way a parent knows a child's breathing. When the salvage captain dismissed the environmental risk she spent four hours compiling a report that left no room for dismissal. She stayed in the water longer than was safe because she wanted to see the damage herself before deciding what to do. 'Emi does not advocate from a distance,' her research partner said, 'she goes to where the thing is and looks at it.' She held the dying coral sample in her gloved hands for a long moment before handing it to the captain so he could understand what was at stake.",
+          "archetype_id": 2,
+          "archetype_label": "The Caring Heart",
+          "confidence": 0.91
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }

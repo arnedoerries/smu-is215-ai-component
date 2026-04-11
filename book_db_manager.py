@@ -111,7 +111,7 @@ def retrieve_entire_book_database():
         return {"error": "Invalid JSON format"}
 
 
-def recommend_books_based_on_archetype(archetype_id: int):
+def recommend_books_based_on_archetype(book_genre: str, character_gender_preference: str, archetype_id: int):
     try:
 
         recommended_books = []
@@ -120,20 +120,21 @@ def recommend_books_based_on_archetype(archetype_id: int):
             data = json.load(file)
 
         for book in data["books"]:
-            matching_characters = []
+            if book["genre"] == book_genre:
+                matching_characters = []
 
-            for character in book["main_characters"]:
-                if character["archetype_id"] == archetype_id:
-                    matching_characters.append(character)
+                for character in book["main_characters"]:
+                    if character["archetype_id"] == archetype_id and (character["gender"] == character_gender_preference or character_gender_preference == "either"):
+                        matching_characters.append(character)
 
-            if matching_characters:
-                recommended_books.append({
-                    "title": book["title"],
-                    "published_date": book["published_date"],
-                    "genre": book["genre"],
-                    "summary": book["summary"],
-                    "matching_characters": matching_characters
-                })
+                if matching_characters:
+                    recommended_books.append({
+                        "title": book["title"],
+                        "published_date": book["published_date"],
+                        "genre": book["genre"],
+                        "summary": book["summary"],
+                        "matching_characters": matching_characters
+                    })
 
         recommended_books.sort(key=lambda added_book : added_book["published_date"], reverse=True)
 
