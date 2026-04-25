@@ -11,9 +11,13 @@ from book_db_manager import retrieve_book_data_product, retrieve_entire_book_dat
 
 app = FastAPI()
 
+origins = [
+    "https://bookrec.aotd.cloud"
+]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
